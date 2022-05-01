@@ -1,6 +1,6 @@
 package student_toomas_park.homework.lesson_2;
 
-public class Task33 {
+public class Task32 {
 
     public static void main(String[] args) {
         // начинаем кодин, добавляем перменные
