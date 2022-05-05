@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class Numbers {
         public static void main(String[] args) {
                 Scanner scanner = new Scanner(System.in);
-                System.out.println("Insert first number:");
+                System.out.println("Insert first number here:");
                 int firstNumber = scanner.nextInt();
-                System.out.println("Insert second number:");
+                System.out.println("Insert second number here:");
                 int secondNumber = scanner.nextInt();
                 int sumResult = firstNumber + secondNumber;
                 int subtraction = firstNumber - secondNumber;
