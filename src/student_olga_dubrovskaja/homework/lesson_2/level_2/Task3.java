@@ -1,8 +1,7 @@
-package student_olga_dubrovskaja.homework.lesson1;
+package student_olga_dubrovskaja.homework.lesson_2.level_2;
 
-public class Phone {
+public class Task3 {
 }
-
 
 
 //    Дан код, нужно исправить синтаксическую ошибку,
@@ -10,9 +9,8 @@ public class Phone {
 //        Функционал класса писать не надо.
 //        Для сдачи работы создайте исправленный класс.
 //
-//class Phone
+//class Book {
 //
-//}
 //
-//        Цель этого задания: обратить ваше внимание на синтаксис
-//        объявления класса в языке программирования Java.
+//    Цель этого задания: обратить ваше внимание на синтаксис
+//    объявления класса в языке программирования Java.

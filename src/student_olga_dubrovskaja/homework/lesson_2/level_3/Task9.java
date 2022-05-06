@@ -1,8 +1,8 @@
-package student_olga_dubrovskaja.homework.lesson1;
+package student_olga_dubrovskaja.homework.lesson_2.level_3;
 
 import java.util.Scanner;
 
-public class Multiplication {
+public class Task9 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Input a number: ");

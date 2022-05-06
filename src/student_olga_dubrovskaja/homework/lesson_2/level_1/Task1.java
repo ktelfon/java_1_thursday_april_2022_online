@@ -1,8 +1,8 @@
-package student_olga_dubrovskaja.homework.lesson1;
+package student_olga_dubrovskaja.homework.lesson_2.level_1;
 
 import java.util.Scanner;
 
-public class Numbers {
+public class Task1 {
         public static void main(String[] args) {
                 Scanner scanner = new Scanner(System.in);
                 System.out.println("Insert first number here:");

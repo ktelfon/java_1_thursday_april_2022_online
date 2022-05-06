@@ -1,8 +1,8 @@
-package student_olga_dubrovskaja.homework.lesson1;
+package student_olga_dubrovskaja.homework.lesson_2.level_2;
 
 import java.util.Scanner;
 
-public class HelloName {
+public class Task8 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String username;
