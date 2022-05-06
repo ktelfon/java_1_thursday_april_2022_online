@@ -7,14 +7,16 @@ public class Task2 {
         System.out.println("Hi , write two numbers too see the results :") ;
         Scanner scanner = new Scanner(System.in) ;
         double num1 = scanner.nextDouble();
+        System.out.println("And now write the second number ") ;
         double num2 = scanner.nextDouble();
-        double result1 = num1+num2 ;
-        double result2 = num1-num2 ;
-        double result3 = num1*num2 ;
-        double result4 = num1/num2 ;
-        System.out.println(result1) ;
-        System.out.println(result2) ;
-        System.out.println(result3) ;
-        System.out.println(result4) ;
+        double sum = num1+num2 ;
+        double subtraction = num1-num2 ;
+        double multiplication = num1*num2 ;
+        double division = num1/num2 ;
+        System.out.println(num1 + " + " + num2 + " = " +sum) ;
+        System.out.println(num1 + " - " + num2 + " = " +subtraction) ;
+        System.out.println(num1 + " * " + num2 + " = " +multiplication) ;
+        System.out.println(num1 + " / " + num2 + " = " +division) ;
+        System.out.println("Thanks for using my program !") ;
     }
 }

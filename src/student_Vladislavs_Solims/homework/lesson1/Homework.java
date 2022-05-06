@@ -8,7 +8,7 @@ public class Homework {
         //запустите программу , всё должно быть красиво :)
 
         //task 10
-        System.out.println("Write an exersize number too sea the results :");
+        System.out.println("Write an exersize number (10-12) too sea the results  :");
 
 
         Scanner scanner = new Scanner(System.in) ;
