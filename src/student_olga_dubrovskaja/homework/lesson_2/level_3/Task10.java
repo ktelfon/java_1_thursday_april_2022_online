@@ -1,7 +1,7 @@
-package student_olga_dubrovskaja.homework.lesson1;
+package student_olga_dubrovskaja.homework.lesson_2.level_3;
 import java.util.Scanner;
 
-public class Circle {
+public class Task10 {
 
     public static void main(String[] args) {
 

@@ -1,6 +1,6 @@
-package student_olga_dubrovskaja.homework.lesson1;
+package student_olga_dubrovskaja.homework.lesson_2.level_2;
 
-public class BankAccount {
+public class Task5 {
     public static void main(String[] args) {
 
     }
