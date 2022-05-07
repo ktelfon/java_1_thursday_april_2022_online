@@ -3,6 +3,13 @@ package student_Vladislavs_Solims.homework.lesson2.level1;
 import java.util.Scanner;
 
 public class Task2 {
+
+  /*  Написать консольную программу, которая запрашивает у пользователя два вещественных числа
+            (числа с запятой) и выводит на консоль результаты: сложения, вычитания, умножения и деления.
+    Вещественные числа можно запрашивать с консоли используя обьект Scanner
+    следующим образом:  */
+
+
     public static void main(String[] args) {
         System.out.println("Hi , write two numbers too see the results :") ;
         Scanner scanner = new Scanner(System.in) ;
