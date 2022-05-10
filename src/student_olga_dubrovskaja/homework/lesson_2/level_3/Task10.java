@@ -1,6 +1,10 @@
 package student_olga_dubrovskaja.homework.lesson_2.level_3;
+
+import teacher.codereview.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 public class Task10 {
 
     public static void main(String[] args) {
@@ -13,8 +17,8 @@ public class Task10 {
         double perimeter;
         double area;
         double pi = Math.PI;
-        perimeter = 2*pi*radius;
-        area = pi*radius*radius;
+        perimeter = 2 * pi * radius;
+        area = pi * radius * radius;
 
         System.out.println("Radius = " + radius);
         System.out.println("Perimeter = " + perimeter);

@@ -2,10 +2,13 @@ package student_Vladislavs_Solims.homework.lesson2.level3;
 
 
 
+import teacher.codereview.CodeReview;
+
 import java.util.Scanner;
 
 import static java.lang.Math.PI;
 
+@CodeReview(approved = true)
 public class Task10 {
     /*7,Напишите программу, которая запрашивает у пользователя
         радиус круга (вещественное число) и печатает на консоль

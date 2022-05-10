@@ -1,7 +1,12 @@
 package student_olegs_liliks.homework.lesson_2;
 
+import teacher.codereview.CodeReview;
+import teacher.codereview.CodeReviewComment;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
+@CodeReviewComment(teacher = "Formatting, same as task 1 ? ")
 public class Task_2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -14,9 +19,10 @@ public class Task_2 {
         double multiple = firstDoubleNumber * secondDoubleNumber;
         double division = firstDoubleNumber / secondDoubleNumber;
 
-        System.out.println(firstDoubleNumber +"+"+ secondDoubleNumber +"="+summa );
-        System.out.println(firstDoubleNumber +"-"+ secondDoubleNumber +"="+difference );
-        System.out.println(firstDoubleNumber +"*"+ secondDoubleNumber +"="+multiple );
-        System.out.println(firstDoubleNumber +"/"+ secondDoubleNumber +"="+division );
+        System.out.println(firstDoubleNumber + "+" + secondDoubleNumber + "=" + summa);
+        System.out.println(firstDoubleNumber + "-" + secondDoubleNumber + "=" + difference);
+        System.out.println(firstDoubleNumber + "*" + secondDoubleNumber + "=" + multiple);
+        System.out.println(firstDoubleNumber + "/" + secondDoubleNumber + "=" + division);
 
-}}
+    }
+}

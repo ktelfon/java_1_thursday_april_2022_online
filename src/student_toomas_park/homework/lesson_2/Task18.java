@@ -1,5 +1,8 @@
 package student_toomas_park.homework.lesson_2;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class Task18 {
     public static void main(String[] args) {
         System.out.println("Sorry, I have an errors.");

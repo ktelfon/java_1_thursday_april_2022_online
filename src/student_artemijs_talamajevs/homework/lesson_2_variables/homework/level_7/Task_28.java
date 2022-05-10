@@ -1,5 +1,8 @@
 package student_artemijs_talamajevs.homework.lesson_2_variables.homework.level_7;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class Task_28 {
     public static void main(String[] args) {
 

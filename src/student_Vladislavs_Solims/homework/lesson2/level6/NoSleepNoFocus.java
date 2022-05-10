@@ -2,6 +2,9 @@ package student_Vladislavs_Solims.homework.lesson2.level6;
 
 //Заставьте эту программу работать!
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class NoSleepNoFocus {
     public static void main(String[] args) {
         System.out.println("I wanna coffee");
