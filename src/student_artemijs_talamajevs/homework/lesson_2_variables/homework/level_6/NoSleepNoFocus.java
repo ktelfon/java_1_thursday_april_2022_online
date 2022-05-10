@@ -1,4 +1,4 @@
-package student_artemijs_talamajevs.homework.lesson_2_variables.homework;
+package student_artemijs_talamajevs.homework.lesson_2_variables.homework.level_6;
 
 public class NoSleepNoFocus {
     //Заставьте эту программу работать!

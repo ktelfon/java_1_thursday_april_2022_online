@@ -1,4 +1,4 @@
-package student_artemijs_talamajevs.homework.lesson_2_variables.homework;
+package student_artemijs_talamajevs.homework.lesson_2_variables.homework.level_7;
 
 public class CorrectDataTypes {
     //Исправьте ошибки компиляции в данной программе.

@@ -1,4 +1,4 @@
-package student_artemijs_talamajevs;
+package student_artemijs_talamajevs.homework.lesson_2_variables.homework.level_1;
 
 import java.util.Scanner;
 

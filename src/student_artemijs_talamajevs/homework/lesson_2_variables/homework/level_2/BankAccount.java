@@ -1,15 +1,20 @@
-package student_artemijs_talamajevs.homework.lesson_2_variables.homework;
+package student_artemijs_talamajevs.homework.lesson_2_variables.homework.level_2;
 
-public class Book {
+public class BankAccount {
+    public static void main(String[] args) {
+
+    }
     //Дан код, нужно исправить синтаксическую ошибку,
     //которая приводит к ошибке компиляции.
     //Функционал класса писать не надо.
     //Для сдачи работы создайте исправленный класс.
     //
-    //class Book {
-    // }
+    //class BankAccount {
+    //
+    //	public static void main(String[] args) {
+    //
+    //}
     //
     //Цель этого задания: обратить ваше внимание на синтаксис
-    //объявления класса в языке программирования Java.
-
+    //объявления метода в языке программирования Java.
 }
