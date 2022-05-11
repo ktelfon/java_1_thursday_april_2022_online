@@ -2,8 +2,13 @@ package student_Vladislavs_Solims.homework.lesson2.level3;
 
 
 
+import teacher.codereview.CodeReview;
+import teacher.codereview.CodeReviewComment;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
+@CodeReviewComment(teacher = "Задание 3 урока.")
 public class Task9 {
     /*Напишите программу, которая запрашивает у пользователя целое число
         и печатает на консоль таблицу умножения для этого числа до 10.
@@ -32,6 +37,7 @@ public class Task9 {
         System.out.println("Thank you");
         //на это ушло много времени , что бы загуглить и понять как это работает )
 
+        // м
 
 
         }

@@ -1,7 +1,10 @@
 package student_Vladislavs_Solims.homework.lesson2.level1;
 
+import teacher.codereview.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 public class Task2 {
 
   /*  Написать консольную программу, которая запрашивает у пользователя два вещественных числа

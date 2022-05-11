@@ -1,7 +1,10 @@
 package student_Vladislavs_Solims.homework.lesson2.level2;
 //task 7 , 8
+import teacher.codereview.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 public class LoginService {
     public static void main(String[] args) {
 

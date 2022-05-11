@@ -1,7 +1,10 @@
 package student_olga_dubrovskaja.homework.lesson_2.level_5;
 
+import teacher.codereview.CodeReview;
+
 import java.util.Random;
 
+@CodeReview(approved = true)
 public class Task15 {
     public static void main(String[] args) {
         int min = 0;

@@ -1,8 +1,11 @@
 package student_Vladislavs_Solims.homework.lesson2.level3;
 
 
+import teacher.codereview.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 public class Task9_easy {
     /*Напишите программу, которая запрашивает у пользователя целое число
         и печатает на консоль таблицу умножения для этого числа до 10.

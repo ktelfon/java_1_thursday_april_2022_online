@@ -1,5 +1,8 @@
 package student_Vladislavs_Solims.homework.lesson2.level6;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class AttentionPlease {
    /* Заставьте эту программу работать!
 

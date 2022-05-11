@@ -1,25 +1,30 @@
 package student_olga_dubrovskaja.homework.lesson_2.level_1;
 
+import teacher.codereview.CodeReview;
+import teacher.codereview.CodeReviewComment;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
+@CodeReviewComment(teacher = "Formatting")
 public class Task1 {
-        public static void main(String[] args) {
-                Scanner scanner = new Scanner(System.in);
-                System.out.println("Insert first number here:");
-                int firstNumber = scanner.nextInt();
-                System.out.println("Insert second number here:");
-                int secondNumber = scanner.nextInt();
-                int sumResult = firstNumber + secondNumber;
-                int subtraction = firstNumber - secondNumber;
-                int multiplication = firstNumber * secondNumber;
-                int division = firstNumber / secondNumber;
-                System.out.println(firstNumber + " + " + secondNumber + " = " + sumResult);
-                System.out.println(firstNumber + " - " + secondNumber + " = " + subtraction);
-                System.out.println(firstNumber + " * " + secondNumber + " = " + multiplication);
-                System.out.println(firstNumber + " / " + secondNumber + " = " + division);
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Insert first number here:");
+        int firstNumber = scanner.nextInt();
+        System.out.println("Insert second number here:");
+        int secondNumber = scanner.nextInt();
+        int sumResult = firstNumber + secondNumber;
+        int subtraction = firstNumber - secondNumber;
+        int multiplication = firstNumber * secondNumber;
+        int division = firstNumber / secondNumber;
+        System.out.println(firstNumber + " + " + secondNumber + " = " + sumResult);
+        System.out.println(firstNumber + " - " + secondNumber + " = " + subtraction);
+        System.out.println(firstNumber + " * " + secondNumber + " = " + multiplication);
+        System.out.println(firstNumber + " / " + secondNumber + " = " + division);
 
 
-        }
+    }
 }
 
 
