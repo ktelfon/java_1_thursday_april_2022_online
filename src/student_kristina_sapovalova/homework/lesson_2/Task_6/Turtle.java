@@ -1,5 +1,8 @@
 package student_kristina_sapovalova.homework.lesson_2.Task_6;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class Turtle {
     public static void main(String[] args) {
         //

@@ -1,7 +1,10 @@
 package student_kristina_sapovalova.homework.lesson_2.Task_2;
 
+import teacher.codereview.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 public class Main {
     public static void main(String[] args) {
 

@@ -1,5 +1,8 @@
 package student_kristina_sapovalova.homework.lesson_2.Task_3;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class Book {
     public static void main(String[] args) {
         //

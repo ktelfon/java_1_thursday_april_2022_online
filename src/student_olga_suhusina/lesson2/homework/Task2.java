@@ -1,7 +1,10 @@
 package student_olga_suhusina.lesson2.homework;
 
+import teacher.codereview.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 public class Task2 {
     public static void main(String[] args) {
         System.out.println("Hello! Enter two numbers:");
