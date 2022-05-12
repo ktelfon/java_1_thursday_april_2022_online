@@ -9,6 +9,7 @@ public class CarDemo {
         myCar.drive(20);
         System.out.println(myCar.getDistance());
         System.out.println(myCar.isWorking());
+        //thanks for the lesson
 
 
     }
