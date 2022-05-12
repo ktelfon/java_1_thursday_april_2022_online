@@ -1,4 +1,4 @@
-package student_olegs_liliks.homework.lesson_2;
+package student_olegs_liliks.homework.lesson_2.level_1;
 
 import teacher.codereview.CodeReview;
 import teacher.codereview.CodeReviewComment;
@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 @CodeReview(approved = true)
 @CodeReviewComment(teacher = "Formatting, same as task 1 ? ")
-public class Task_2 {
+public class Task2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Write first non-integer number");
