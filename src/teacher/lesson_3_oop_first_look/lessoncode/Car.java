@@ -1,6 +1,6 @@
 package teacher.lesson_3_oop_first_look.lessoncode;
 
-public class Car {
+public class   Car {
 
     private String brand;
     private int distance;

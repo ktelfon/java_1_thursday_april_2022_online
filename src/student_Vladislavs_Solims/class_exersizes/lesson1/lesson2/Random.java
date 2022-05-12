@@ -1,4 +1,4 @@
-package student_Vladislavs_Solims.class_exersizes.lesson2;
+package student_Vladislavs_Solims.class_exersizes.lesson1.lesson2;
 
 import java.util.Scanner;
 
