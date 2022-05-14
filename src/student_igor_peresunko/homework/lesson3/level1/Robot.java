@@ -12,24 +12,14 @@ package student_igor_peresunko.homework.lesson3.level1;
 public class Robot {
 
     private String hello;
-
     private String name;
+    public void sayHello(String hello) {this.hello = hello;}
 
-    public void sayHello(String hello) {
-        this.hello = hello;
-    }
+    public String getHello() {return hello;}
 
-    public String getHello() {
-        return hello;
-    }
+    public void sayYourName(String name) {this.name = name;}
 
-    public void sayYourName(String name) {
-        this.name = name;
-    }
-
-    public String getName() {
-        return name;
-    }
+    public String getName() {return name;}
 
 }
 
