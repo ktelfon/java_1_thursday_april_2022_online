@@ -1,0 +1,8 @@
+ System.out.println("Hello guess a number (0-100):");
+        Scanner scr = new Scanner(System.in);
+        int guessingNumber = scr.nextInt();
+        Random rand = new Random();
+        int randomNumber = rand.nextInt(101);
+        boolean result = guessingNumber ==randomNumber;
+        System.out.println(result);
+        System.out.println("Number was:"+ randomNumber);

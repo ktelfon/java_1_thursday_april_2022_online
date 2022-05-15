@@ -1,7 +1,10 @@
 package student_olga_dubrovskaja.homework.lesson_2.level_3;
 
+import teacher.codereview.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 public class Task11 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -13,17 +16,17 @@ public class Task11 {
         double mean;
         int counter;
         for (counter = 0; counter < arrayLength; counter++) {
-            System.out.println("insert " + (counter + 1 ) + ". number: ");
+            System.out.println("insert " + (counter + 1) + ". number: ");
             numbers[counter] = scanner.nextInt();
         }
         System.out.print("Your numbers are: ");
 
-        for (counter=0; counter < arrayLength; counter++){
+        for (counter = 0; counter < arrayLength; counter++) {
             System.out.print(numbers[counter] + " ");
             sumNumbers = sumNumbers + numbers[counter];
         }
-        mean = sumNumbers/arrayLength;
-        System.out.println("Their mean value is " + mean );
+        mean = sumNumbers / arrayLength;
+        System.out.println("Their mean value is " + mean);
 
     }
 }

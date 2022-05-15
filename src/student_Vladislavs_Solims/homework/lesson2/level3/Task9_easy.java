@@ -1,8 +1,11 @@
 package student_Vladislavs_Solims.homework.lesson2.level3;
 
 
+import teacher.codereview.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 public class Task9_easy {
     /*Напишите программу, которая запрашивает у пользователя целое число
         и печатает на консоль таблицу умножения для этого числа до 10.
@@ -32,6 +35,7 @@ public class Task9_easy {
         int multiplication8 = usernum*8;
         int multiplication9 = usernum*9;
         int multiplication10 = usernum*10;
+
         System.out.println(usernum +" " + "* 1" + "=" + usernum) ;
         System.out.println(usernum +" " + "* 2" + "=" + multiplication2) ;
         System.out.println(usernum +" " + "* 3" + "=" + multiplication3) ;
@@ -42,6 +46,7 @@ public class Task9_easy {
         System.out.println(usernum +" " + "* 8" + "=" + multiplication8) ;
         System.out.println(usernum +" " + "* 9" + "=" + multiplication9) ;
         System.out.println(usernum +" " + "* 10" + "=" + multiplication10) ;
-System.out.println("Thanks for using my app");
+        System.out.println("Thanks for using my app");
+
     }
 }
