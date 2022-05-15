@@ -14,6 +14,13 @@ public class RobotDemo {
         System.out.println(robot1.getHello());
         System.out.println(robot1.getName());
 
+        Robot robot2 = new Robot();
+        robot2.sayHello("Hello my master");
+        robot2.sayYourName("my name is C3PO");
+        System.out.println(robot2.getHello());
+        System.out.println(robot2.getName());
+
+
 
 
 
