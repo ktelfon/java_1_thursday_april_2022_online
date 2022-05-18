@@ -1,5 +1,8 @@
 package student_artemijs_talamajevs.lesson_3;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class Book {
     String title;
 
