@@ -19,28 +19,29 @@ public class Task_1 {
         //5. При помощи System.out.println() выведите на консоль полученные результаты сложения, вычитания, умножения и деления.
         // (каждый результат на новой строке отдельно).
         System.out.println("addition");
-        Scanner scr = new Scanner(System.in);
-        int firstNumber = scr.nextInt();
+        Scanner scr=new Scanner(System.in);
+        int firstNumber =scr.nextInt();
 
-        int b = scr.nextInt();
+        int b=scr.nextInt();
 
-        int results = firstNumber + b;
-        System.out.println("resultsOfAddition" + results);
+        int results= firstNumber+b ;
+        System.out.println("resultsOfAddition"+ results);
 
-        int secondNumber = scr.nextInt();
-        int thirdNumber = scr.nextInt();
-        int resultsOfSubtraction = secondNumber - thirdNumber;
-        System.out.println("resultsOfSubtraction" + resultsOfSubtraction);
+        int secondNumber =scr.nextInt();
+        int thirdNumber=scr.nextInt();
+        int resultsOfSubtraction=secondNumber-thirdNumber ;
+        System.out.println("resultsOfSubtraction"+resultsOfSubtraction);
 
-        int fifthNumber = scr.nextInt();
-        int sixthNumber = scr.nextInt();
-        int resultsOfMultiplication = fifthNumber * sixthNumber;
-        System.out.println("resultsOfMultiplication" + resultsOfMultiplication);
+        int fifthNumber=scr.nextInt();
+        int sixthNumber=scr.nextInt();
+        int resultsOfMultiplication=fifthNumber*sixthNumber;
+        System.out.println("resultsOfMultiplication"+resultsOfMultiplication);
 
-        int eightNumber = scr.nextInt();
-        int ninthNumber = scr.nextInt();
-        int resultsOfDivision = eightNumber / ninthNumber;
-        System.out.println("resultsOfDivision" + resultsOfDivision);
+        int eightNumber=scr.nextInt();
+        int ninthNumber=scr.nextInt();
+        int resultsOfDivision=eightNumber/ninthNumber;
+        System.out.println("resultsOfDivision"+resultsOfDivision);
+
 
 
     }

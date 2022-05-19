@@ -1,12 +1,5 @@
 package student_igor_peresunko.homework.lesson3.level3;
 
-import teacher.codereview.CodeReview;
-import teacher.codereview.CodeReviewComment;
-
-@CodeReview(approved = true)
-@CodeReviewComment(teacher =
-        "Методы не те, sayHello должен печатать Hello, а он работает как setter")
-
 public class Robot {
 
     private String hello;
