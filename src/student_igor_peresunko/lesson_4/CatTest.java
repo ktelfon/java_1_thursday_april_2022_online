@@ -28,7 +28,7 @@ public class CatTest {
         Cat cat = new Cat("Tom", 12);
 
         boolean expectedResult = false;
-        cat.feed("Chicken");
+        cat.feed(CatFood.CHICKEN);
         boolean realResult = cat.isHungry();
 
         if (expectedResult == realResult) {
@@ -42,7 +42,7 @@ public class CatTest {
         Cat cat = new Cat("Tom", 12);
 
         boolean expectedResult = true;
-        cat.feed("Tuna");
+        cat.feed(CatFood.BIRDS);
         boolean realResult = cat.isHungry();
 
         if (expectedResult == realResult) {
@@ -56,7 +56,7 @@ public class CatTest {
         Cat cat = new Cat("Tom", 12);
 
         boolean expectedResult = false;
-        cat.feed("Apple");
+        cat.feed(CatFood.TUNA);
         boolean realResult = cat.isHungry();
 
         if (expectedResult == realResult) {
