@@ -4,6 +4,9 @@ package student_olga_dubrovskaja.homework.lesson_3.level_4;
 //        Исправить и запустить программу.
 //        Менять можно только класс Book.
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class Book {
 
     String title;

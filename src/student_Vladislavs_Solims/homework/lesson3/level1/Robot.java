@@ -1,5 +1,8 @@
 package student_Vladislavs_Solims.homework.lesson3.level1;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class Robot {
     public Robot(){
 

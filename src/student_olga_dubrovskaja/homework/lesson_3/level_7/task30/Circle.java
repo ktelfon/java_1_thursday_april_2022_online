@@ -1,5 +1,8 @@
 package student_olga_dubrovskaja.homework.lesson_3.level_7.task30;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class Circle {
     private double radius;
     Circle() {
