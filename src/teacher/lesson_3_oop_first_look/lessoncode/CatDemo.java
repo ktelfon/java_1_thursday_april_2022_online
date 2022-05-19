@@ -29,5 +29,7 @@ public class CatDemo {
         System.out.println(bestCat.getAge());
         System.out.println(bestCat.getAge());
 
+        System.out.println("ood".matches(".*\\d.*"));
+
     }
 }
