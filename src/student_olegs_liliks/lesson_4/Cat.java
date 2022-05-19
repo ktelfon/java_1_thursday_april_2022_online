@@ -45,5 +45,10 @@ public class Cat {
             hungry = false;
         }
     }
+    public void drink(String food){
+        if("Milk".equals(food)){
+            hungry = false;
+        }
+    }
 
 }
