@@ -1,4 +1,4 @@
-package teacher.lesson_4_if_statement.lessoncode;
+package student_igor_peresunko.lesson_4;
 
 import student_igor_peresunko.cardemo.Cat;
 
@@ -8,7 +8,10 @@ public class CatTest {
         test1();
         test2();
         test3();
+        test4();
     }
+
+
 
     public static void test1() {
         Cat cat = new Cat("Tom", 12);
@@ -48,6 +51,20 @@ public class CatTest {
             System.out.println("Test 3 PASSED.");
         } else {
             System.out.println("Test 3 FAILED.");
+        }
+    }
+
+    public static void test4(){
+        Cat cat = new Cat("Tom", 12);
+
+        boolean expectedResult = false;
+        cat.feed("Apple");
+        boolean realResult = cat.isHungry();
+
+        if (expectedResult == realResult) {
+            System.out.println("Test 4 PASSED.");
+        } else {
+            System.out.println("Test 4 FAILED.");
         }
     }
 }

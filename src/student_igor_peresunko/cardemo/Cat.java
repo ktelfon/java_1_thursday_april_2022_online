@@ -1,4 +1,4 @@
-package teacher.lesson_4_if_statement.lessoncode;
+package student_igor_peresunko.cardemo;
 
 public class Cat {
 
