@@ -1,5 +1,8 @@
 package student_olga_dubrovskaja.homework.lesson_3.level_7.task29;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class Document {
     private String documentType;
     private String documentNumber;
