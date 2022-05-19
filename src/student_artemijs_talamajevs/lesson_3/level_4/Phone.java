@@ -1,4 +1,4 @@
-package student_artemijs_talamajevs.lesson_3;
+package student_artemijs_talamajevs.lesson_3.level_4;
 
 class Phone {
 
