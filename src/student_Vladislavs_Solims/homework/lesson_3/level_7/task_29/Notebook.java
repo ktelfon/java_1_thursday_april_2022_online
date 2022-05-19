@@ -21,11 +21,6 @@ public class Notebook {
     public int getDisplaySize() {
         return displaySize;
     }
-
-    public void setCharged(boolean charged) {
-        this.charged = charged;
-    }
-
     public boolean isCharged() {
         return charged;
     }
