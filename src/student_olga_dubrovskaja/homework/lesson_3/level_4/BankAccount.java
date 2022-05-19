@@ -1,31 +1,33 @@
-package student_artemijs_talamajevs.lesson_3;
+package student_olga_dubrovskaja.homework.lesson_3.level_4;
 
-import teacher.codereview.CodeReview;
+//        Найти ошибку в коде.
+//        Исправить и запустить программу.
 
-@CodeReview(approved = true)
 class BankAccount {
-
     String ownerFirstName;
     String ownerLastName;
     int moneyAmount;
 
-    BankAccount(String ownerFirstName,
-                String ownerLastName,
-                int moneyAmount) {
+    BankAccount(String ownerFirstName, String ownerLastName, int moneyAmount) {
+
         this.ownerFirstName = ownerFirstName;
         this.ownerLastName = ownerLastName;
         this.moneyAmount = moneyAmount;
     }
 
     String getOwnerFirstName() {
+
         return this.ownerFirstName;
     }
 
     String getOwnerLastName() {
-        return this.ownerFirstName;
+
+
+        return this.ownerLastName;
     }
 
     int getMoneyAmount() {
+
         return this.moneyAmount;
     }
 

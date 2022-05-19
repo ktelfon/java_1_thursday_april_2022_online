@@ -1,8 +1,13 @@
 package student_artemijs_talamajevs.lesson_3;
 
+import teacher.codereview.CodeReview;
+import teacher.codereview.CodeReviewComment;
+
+@CodeReview(approved = true)
+@CodeReviewComment(teacher = "private for model lost")
 class Phone {
 
-    String model;
+    String model; // private
 
     Phone(String model) {
         this.model = model;

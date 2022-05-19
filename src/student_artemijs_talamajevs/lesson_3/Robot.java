@@ -1,6 +1,10 @@
 package student_artemijs_talamajevs.lesson_3;
 
-import java.util.Scanner;
+import teacher.codereview.CodeReview;
+import teacher.codereview.CodeReviewComment;
+
+@CodeReview(approved = true)
+@CodeReviewComment(teacher = "Сначало переменные потом конструктор")
 public class Robot {
     public Robot(){
 
