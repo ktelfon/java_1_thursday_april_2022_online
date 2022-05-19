@@ -1,7 +1,5 @@
 package student_igor_peresunko.lesson_4;
 
-import student_igor_peresunko.cardemo.Cat;
-
 public class CatTest {
 
     public static void main(String[] args) {

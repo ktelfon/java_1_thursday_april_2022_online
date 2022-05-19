@@ -29,10 +29,8 @@ public class IfDemo {
 
         boolean testBool = true ? false : false;
 
-        String drink = "cofee";
+        String drink = "coffee";
         switch (drink) {
-            case "coffe":
-            case "cofee":
             case "coffee":
                 System.out.println("I would go for Java!");
                 break;
