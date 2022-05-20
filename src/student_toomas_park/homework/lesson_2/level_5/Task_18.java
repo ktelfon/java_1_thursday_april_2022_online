@@ -1,9 +1,9 @@
-package student_toomas_park.homework.lesson_2;
+package student_toomas_park.homework.lesson_2.level_5;
 
 import teacher.codereview.CodeReview;
 
 @CodeReview(approved = true)
-public class Task18 {
+public class Task_18 {
     public static void main(String[] args) {
         System.out.println("Sorry, I have an errors.");
         System.out.println("Please fix me!");

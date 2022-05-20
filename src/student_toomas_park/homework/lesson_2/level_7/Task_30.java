@@ -1,9 +1,9 @@
-package student_toomas_park.homework.lesson_2;
+package student_toomas_park.homework.lesson_2.level_7;
 
 import teacher.codereview.CodeReview;
 
 @CodeReview(approved = true)
-public class Task30 {
+public class Task_30 {
 
     public static void main(String[] args) {
 
