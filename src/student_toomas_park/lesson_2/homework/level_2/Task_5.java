@@ -7,7 +7,7 @@ public class Task_5 {
 Функционал класса писать не надо.
 Для сдачи работы создайте исправленный класс.
 
-class BankAccount {
+public class BankAccount {
 
 	public static void main(String[] args){
 
