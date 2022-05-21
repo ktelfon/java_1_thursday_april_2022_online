@@ -5,6 +5,7 @@ class StockTest {
         StockTest stockTest = new StockTest();
         stockTest.maxPrice();
         stockTest.minPrice();
+        stockTest.currentPrice();
     }
 
     public void testResult(boolean result, String testName){
@@ -33,6 +34,13 @@ class StockTest {
         Stock stock = updatePriceForTest();
         int expectedValue = 5;
         testResult(expectedValue == stock.getMinPrice(), "Min price test: ");
+    }
+
+    public void currentPrice(){
+        Stock stock = updatePriceForTest();
+        int expectedValue = 77;
+        testResult(expectedValue == stock.getCurrentPrice(), "Current price test: ");
+
     }
 
 }
