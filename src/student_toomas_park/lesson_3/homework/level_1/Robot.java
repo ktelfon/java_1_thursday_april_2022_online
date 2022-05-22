@@ -7,6 +7,6 @@ class Robot{
         System.out.println("Привет!");
     }
     public void sayName(){
-        System.out.println("R2D2");
+        System.out.println("Меня зовут R2D2");
     }
 }
