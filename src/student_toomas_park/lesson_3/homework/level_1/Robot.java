@@ -4,6 +4,9 @@ class Robot{
     public Robot() {
     }
     public void sayHello() {
-        System.out.println("Hello!");
-        }
+        System.out.println("Привет!");
     }
+    public void sayName(){
+        System.out.println("R2D2");
+    }
+}

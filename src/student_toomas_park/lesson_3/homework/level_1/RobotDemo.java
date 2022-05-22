@@ -4,5 +4,7 @@ public class RobotDemo {
     public static void main(String[] args) {
         Robot robot1 = new Robot();
         robot1.sayHello();
+        System.out.print("Меня зовут ");
+        robot1.sayName();
     }
 }
