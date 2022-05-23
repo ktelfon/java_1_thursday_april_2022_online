@@ -5,9 +5,7 @@ public class Task_1 {
         Scanner input = new Scanner(System.in);
         System.out.print("Введите целое число : ");
         int number = input.nextInt();
-        if (number == 0)
-            System.out.println("Введенное число является нулем");
-        else if (number % 2 == 0)
+        if (number % 2 == 0)
             System.out.println("Введенное число является четным");
         else
             System.out.println("Введенное число является нечетным");
