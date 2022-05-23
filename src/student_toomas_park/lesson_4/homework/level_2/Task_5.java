@@ -11,8 +11,8 @@ public class Task_5 {
         System.out.print("Введите второе целое число : ");
         int number2 = input2.nextInt();
         if (number1 < number2)
-            System.out.println("Второе число больше первого");
+            System.out.println(number2);
         else
-            System.out.println("Первое число больше второго");
+            System.out.println(number1);
     }
 }
