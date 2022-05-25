@@ -17,10 +17,10 @@ public class Calculator {
         return firstNumber / secondNumber;
     }
     public boolean res1(int firstNumber, int secondNumber) {
-        return (firstNumber < secondNumber == true);
+        return (firstNumber < secondNumber);
     }
     public boolean res2(int firstNumber, int secondNumber) {
-        return (firstNumber > secondNumber == true);
+        return (firstNumber > secondNumber);
     }
 
     public boolean isEven(int number) {
