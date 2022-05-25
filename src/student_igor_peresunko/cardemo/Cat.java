@@ -1,4 +1,4 @@
-package student_igor_peresunko.lesson_4;
+package student_igor_peresunko.cardemo;
 
 public class Cat {
 
@@ -40,12 +40,10 @@ public class Cat {
         return this.age;
     }
 
-    public void feed(CatFood food) {
-        if (CatFood.CHICKEN.equals(food) || CatFood.TUNA.equals(food)) {
+    public void feed(String food){
+        if("Chicken".equals(food)){
             hungry = false;
         }
-
-
     }
-}
 
+}
