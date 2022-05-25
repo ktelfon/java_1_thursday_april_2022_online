@@ -8,52 +8,51 @@ class CalculatorTest {
         calculatorTest.subTest();
         calculatorTest.mulTest();
         calculatorTest.divTest();
-        // по аналогии реализуйте тесты для остальных методов
     }
 
     public void sumTest() {
-        int firstNumber = 10;  // подготавливаем тестовые данные
-        int secondNumber = 5;  // подготавливаем тестовые данные
-        int expectedResult = 15;  // подготавливаем тестовые данные
+        int firstNumber = 10;
+        int secondNumber = 5;
+        int expectedResult = 15;
         Calculator calculator = new Calculator();
-        int realResult = calculator.sum(firstNumber, secondNumber);  // вызываем продакшен код, который хотим протестировать
-        if (realResult == expectedResult) {  // проверяем правильно ли сработал тестируемый код
+        int realResult = calculator.sum(firstNumber, secondNumber);
+        if (realResult == expectedResult) {
             System.out.println("Sum test = OK");
         } else {
             System.out.println("Sum test = FAIL");
         }
     }
     public void subTest() {
-        int firstNumber = 10;  // подготавливаем тестовые данные
-        int secondNumber = 7;  // подготавливаем тестовые данные
-        int expectedResult = 3;  // подготавливаем тестовые данные
+        int firstNumber = 10;
+        int secondNumber = 7;
+        int expectedResult = 3;
         Calculator calculator = new Calculator();
-        int realResult = calculator.sub(firstNumber, secondNumber);  // вызываем продакшен код, который хотим протестировать
-        if (realResult == expectedResult) {  // проверяем правильно ли сработал тестируемый код
+        int realResult = calculator.sub(firstNumber, secondNumber);
+        if (realResult == expectedResult) {
             System.out.println("sub test = OK");
         } else {
             System.out.println("sub test = FAIL");
         }
     }
     public void mulTest() {
-        int firstNumber = 10;  // подготавливаем тестовые данные
-        int secondNumber = 2;  // подготавливаем тестовые данные
-        int expectedResult = 20;  // подготавливаем тестовые данные
+        int firstNumber = 10;
+        int secondNumber = 2;
+        int expectedResult = 20;
         Calculator calculator = new Calculator();
-        int realResult = calculator.mul(firstNumber, secondNumber);  // вызываем продакшен код, который хотим протестировать
-        if (realResult == expectedResult) {  // проверяем правильно ли сработал тестируемый код
+        int realResult = calculator.mul(firstNumber, secondNumber);
+        if (realResult == expectedResult) {
             System.out.println("mul test = OK");
         } else {
             System.out.println("mul test = FAIL");
         }
     }
     public void divTest() {
-        int firstNumber = 10;  // подготавливаем тестовые данные
-        int secondNumber = 5;  // подготавливаем тестовые данные
-        int expectedResult = 2;  // подготавливаем тестовые данные
+        int firstNumber = 10;
+        int secondNumber = 5;
+        int expectedResult = 2;
         Calculator calculator = new Calculator();
-        int realResult = calculator.div(firstNumber, secondNumber);  // вызываем продакшен код, который хотим протестировать
-        if (realResult == expectedResult) {  // проверяем правильно ли сработал тестируемый код
+        int realResult = calculator.div(firstNumber, secondNumber);
+        if (realResult == expectedResult) {
             System.out.println("div test = OK");
         } else {
             System.out.println("div test = FAIL");
