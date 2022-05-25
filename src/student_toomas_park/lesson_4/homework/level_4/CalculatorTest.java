@@ -102,9 +102,9 @@ class CalculatorTest {
         }
     }
     public void res3Test() {
-        int number1 = 500;
-        int number2 = 100;
-        int number3 = 30;
+        int number1 = 5;
+        int number2 = 10;
+        int number3 = 3;
         int expectedResult = 10;
         Calculator calculator = new Calculator();
         int realResult = calculator.res3(number1, number2, number3);
