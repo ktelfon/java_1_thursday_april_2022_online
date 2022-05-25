@@ -9,6 +9,8 @@ class CalculatorTest {
         calculatorTest.mulTest();
         calculatorTest.divTest();
         calculatorTest.isEvenTest();
+        calculatorTest.res1Test();
+        calculatorTest.res2Test();
     }
 
     public void sumTest() {
@@ -72,6 +74,30 @@ class CalculatorTest {
             System.out.println("even test = OK");
         } else {
             System.out.println("even test = FAIL");
+        }
+    }
+    public void res1Test() {
+        int firstNumber = 5;
+        int secondNumber = 10;
+        boolean expectedResult = true;
+        Calculator calculator = new Calculator();
+        boolean realResult = calculator.res1(firstNumber, secondNumber);
+        if (realResult == expectedResult) {
+            System.out.println("res1 test = OK");
+        } else {
+            System.out.println("res1 test = FAIL");
+        }
+    }
+    public void res2Test() {
+        int firstNumber = 10;
+        int secondNumber = 5;
+        boolean expectedResult = true;
+        Calculator calculator = new Calculator();
+        boolean realResult = calculator.res2(firstNumber, secondNumber);
+        if (realResult == expectedResult) {
+            System.out.println("res2 test = OK");
+        } else {
+            System.out.println("res2 test = FAIL");
         }
     }
 }
