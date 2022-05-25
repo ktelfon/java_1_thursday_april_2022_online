@@ -4,8 +4,11 @@ package student_olga_dubrovskaja.homework.lesson_4.level_1.task1and2;
 //целое число и выводит на консоль
 //положительное оно или отрицательное.
 
+import teacher.codereview.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 class Numbers {
     private int number;
 

@@ -6,8 +6,11 @@ package student_olga_dubrovskaja.homework.lesson_4.level_1.task4;
 //операцию остаток от деления (%). Если остаток от деления на 2
 //равен нулю то число чётное, иначе не чётное.
 
+import teacher.codereview.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 class EvenNumber {
     private int number;
 

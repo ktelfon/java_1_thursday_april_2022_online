@@ -14,6 +14,9 @@ package student_olga_dubrovskaja.homework.lesson_4.level_7.task25;
 //в программировании. Найдите способ использовать одну
 //инстанцию класса LightColorDetector для всех тестов.
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class LightColorDetector {
     int wavelength;
     LightColorDetector(int wavelength){

@@ -1,8 +1,11 @@
 package student_igor_peresunko.lesson_4.level3;
 
+import teacher.codereview.CodeReview;
+
 import java.util.Scanner;
 
-public class task10 {
+@CodeReview(approved = true)
+public class Task10 {
     public static void main(String[] args) {
         Scanner input1 = new Scanner(System.in);
         System.out.println("Enter the first number: ");
@@ -18,14 +21,15 @@ public class task10 {
 
         int greaterNumber = number1;
 
-        if(number2>number3){
-            greaterNumber = number2;}
+        if (number2 > number3) {
+            greaterNumber = number2;
+        }
 
-        if(number3>greaterNumber){
-            greaterNumber = number3;}
+        if (number3 > greaterNumber) {
+            greaterNumber = number3;
+        }
 
         System.out.println(greaterNumber);
-
 
 
     }

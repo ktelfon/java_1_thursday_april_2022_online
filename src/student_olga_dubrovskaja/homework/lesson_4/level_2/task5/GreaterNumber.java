@@ -1,9 +1,12 @@
 package student_olga_dubrovskaja.homework.lesson_4.level_2.task5;
 
+import teacher.codereview.CodeReview;
+
 import java.util.Scanner;
 // Написать программу, которая запрашивает у пользователя
 //два целых числа и выводит на консоль наибольшее из них.
 //Нельзя пользоваться классом Math, можно использовать только if else.
+@CodeReview(approved = true)
 class GreaterNumber {
     private int firstNumber;
     private int secondNumber;
