@@ -1,7 +1,12 @@
 package student_toomas_park.lesson_4.homework.level_3;
 
+import teacher.codereview.CodeReview;
+import teacher.codereview.CodeReviewComment;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
+@CodeReviewComment(teacher = "don't forget {} when writing if")
 public class Task_8 {
     public static void main(String[] args){
         Scanner input1 = new Scanner(System.in);
