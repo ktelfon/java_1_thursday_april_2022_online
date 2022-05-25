@@ -22,6 +22,26 @@ public class Calculator {
     public boolean res2(int firstNumber, int secondNumber) {
         return (firstNumber > secondNumber);
     }
+    public int res3(int number1, int number2, int number3) {
+        if(number1 > number2){
+            if(number1> number3) {
+                return number1;
+            }
+            else {
+                return number3;
+            }
+        } else if (number2 > number1) {
+            if(number2 > number3) {
+                return number2;
+            }
+            else {
+                return number3;
+            }
+        }
+        else {
+            return number3;
+        }
+    }
 
     public boolean isEven(int number) {
         return (number % 2 == 0);

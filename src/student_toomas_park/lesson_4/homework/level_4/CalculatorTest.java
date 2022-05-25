@@ -11,6 +11,7 @@ class CalculatorTest {
         calculatorTest.isEvenTest();
         calculatorTest.res1Test();
         calculatorTest.res2Test();
+        calculatorTest.res3Test();
     }
 
     public void sumTest() {
@@ -98,6 +99,19 @@ class CalculatorTest {
             System.out.println("res2 test = OK");
         } else {
             System.out.println("res2 test = FAIL");
+        }
+    }
+    public void res3Test() {
+        int number1 = 500;
+        int number2 = 100;
+        int number3 = 30;
+        int expectedResult = 10;
+        Calculator calculator = new Calculator();
+        int realResult = calculator.res3(number1, number2, number3);
+        if (realResult == expectedResult) {
+            System.out.println("res3 test = OK");
+        } else {
+            System.out.println("res3 test = FAIL");
         }
     }
 }
