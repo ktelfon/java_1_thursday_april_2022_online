@@ -8,6 +8,7 @@ class CalculatorTest {
         calculatorTest.subTest();
         calculatorTest.mulTest();
         calculatorTest.divTest();
+        calculatorTest.isEvenTest();
     }
 
     public void sumTest() {
@@ -22,6 +23,7 @@ class CalculatorTest {
             System.out.println("Sum test = FAIL");
         }
     }
+
     public void subTest() {
         int firstNumber = 10;
         int secondNumber = 7;
@@ -34,6 +36,7 @@ class CalculatorTest {
             System.out.println("sub test = FAIL");
         }
     }
+
     public void mulTest() {
         int firstNumber = 10;
         int secondNumber = 2;
@@ -46,6 +49,7 @@ class CalculatorTest {
             System.out.println("mul test = FAIL");
         }
     }
+
     public void divTest() {
         int firstNumber = 10;
         int secondNumber = 5;
@@ -59,4 +63,15 @@ class CalculatorTest {
         }
     }
 
+    public void isEvenTest() {
+        int number = 10;
+        boolean expectedResult = true;
+        Calculator calculator = new Calculator();
+        boolean realResult = calculator.isEven(number);
+        if (realResult == expectedResult) {
+            System.out.println("even test = OK");
+        } else {
+            System.out.println("even test = FAIL");
+        }
+    }
 }
