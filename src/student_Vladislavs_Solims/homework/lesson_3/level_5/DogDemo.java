@@ -1,7 +1,10 @@
 package student_Vladislavs_Solims.homework.lesson_3.level_5;
 
+import teacher.codereview.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 public class DogDemo {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
