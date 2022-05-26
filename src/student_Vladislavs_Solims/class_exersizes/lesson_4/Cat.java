@@ -40,10 +40,12 @@ public class Cat {
         return this.age;
     }
 
-    public void feed(String food){
-        if("Chicken".equals(food)){
+    public void feed(CatFood food){
+        if(CatFood.CHICKEN.equals(food)||CatFood.MEAT.equals(food)){
             hungry = false;
+
         }
     }
+
 
 }
