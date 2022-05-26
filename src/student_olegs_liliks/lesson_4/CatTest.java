@@ -1,6 +1,6 @@
 package student_olegs_liliks.lesson_4;
 
-import teacher.lesson_4_if_statement.lessoncode.Cat;
+
 
 public class CatTest {
 
@@ -12,7 +12,7 @@ public class CatTest {
     }
 
     public static void test1() {
-        teacher.lesson_4_if_statement.lessoncode.Cat cat = new teacher.lesson_4_if_statement.lessoncode.Cat("Tom", 12);
+        Cat cat = new Cat("Tom", 12);
 
         int expectedValue = 13;
         int realValue = cat.makeOlder(1);
@@ -25,10 +25,10 @@ public class CatTest {
     }
 
     public static void test2(){
-        teacher.lesson_4_if_statement.lessoncode.Cat cat = new teacher.lesson_4_if_statement.lessoncode.Cat("Tom", 12);
+        Cat cat = new Cat("Tom", 12);
 
         boolean expectedResult = false;
-        cat.feed("Chicken");
+        cat.feed(CatFood.TUNA);
         boolean realResult = cat.isHungry();
 
         if (expectedResult == realResult) {
@@ -39,10 +39,10 @@ public class CatTest {
     }
 
     public static void test3(){
-        teacher.lesson_4_if_statement.lessoncode.Cat cat = new Cat("Tom", 12);
+       Cat cat = new Cat("Tom", 12);
 
         boolean expectedResult = true;
-        cat.feed("Tuna");
+        cat.feed(CatFood.BIRDS);
         boolean realResult = cat.isHungry();
 
         if (expectedResult == realResult) {
@@ -54,8 +54,8 @@ public class CatTest {
 
     public static void test4(){
         Cat cat = new Cat("Tom", 12);
-        boolean expectedResult = true;
-        cat.feed("Milk");
+        boolean expectedResult = false;
+        cat.feed(CatFood.CHICKEN);
         boolean realResult = cat.isHungry();
         if (expectedResult==realResult) {
             System.out.println("Test 4 PASSED.");
