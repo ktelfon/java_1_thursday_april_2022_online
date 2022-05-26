@@ -11,8 +11,11 @@ package student_olga_dubrovskaja.homework.lesson_4.level_1.task3;
 //Ввод: 5
 //Вывод: Friday
 
+import teacher.codereview.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 class Week {
     private int dayNumber;
 

@@ -7,8 +7,11 @@ package student_olga_dubrovskaja.homework.lesson_4.level_3.task10;
 //Это поможет вам правильно написать программу!
 //Нельзя пользоваться классом Math.
 
+import teacher.codereview.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 class GreaterNumber {
     private int firstNumber;
     private int secondNumber;

@@ -1,5 +1,8 @@
 package student_olga_dubrovskaja.homework.lesson_4.level_7.task23;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class LeapYear {
     boolean leap;
 

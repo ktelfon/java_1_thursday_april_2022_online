@@ -1,5 +1,8 @@
 package student_olga_dubrovskaja.homework.lesson_4.level_4.task11_task15;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class CalculatorDemo {
     public static void main(String[] args) {
         int a = 5;

@@ -1,7 +1,10 @@
 package student_olga_dubrovskaja.homework.lesson_4.level_3.task8;
 
+import teacher.codereview.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 class ThreeEqualNumbers {
     private int firstNumber;
     private int secondNumber;
