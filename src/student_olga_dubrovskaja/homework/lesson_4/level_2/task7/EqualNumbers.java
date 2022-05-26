@@ -1,11 +1,14 @@
 package student_olga_dubrovskaja.homework.lesson_4.level_2.task7;
 
+import teacher.codereview.CodeReview;
+
 import java.util.Scanner;
 //Написать программу, которая запрашивает у пользователя
 //два целых числа и выводит на консоль:
 //- "Numbers are equals" - если числа равны
 //- "Numbers are different" - если числа не равны
 
+@CodeReview(approved = true)
 class EqualNumbers {
     private int firstNumber;
     private int secondNumber;

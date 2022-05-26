@@ -1,8 +1,11 @@
 package student_olga_dubrovskaja.homework.lesson_4.level_2.task6;
 // Написать программу, которая запрашивает у пользователя
 //два целых числа и выводит на консоль наименьшее из них.
+import teacher.codereview.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 class SmallerNumber {
 
     private int firstNumber;

@@ -1,7 +1,10 @@
 package student_olga_dubrovskaja.homework.lesson_4.level_7.task22;
 
+import teacher.codereview.CodeReview;
+
 import java.util.Objects;
 
+@CodeReview(approved = true)
 class FizzBuzzTest {
     public static void main(String[] args) {
         FizzBuzzTest test = new FizzBuzzTest();

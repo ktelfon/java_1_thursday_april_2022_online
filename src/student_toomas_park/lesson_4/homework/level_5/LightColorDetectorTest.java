@@ -1,13 +1,15 @@
 package student_toomas_park.lesson_4.homework.level_5;
 
 
+import teacher.codereview.CodeReview;
 
+@CodeReview(approved = true)
 class LightColorDetectorTest {
     public static void main(String[] args) {
         LightColorDetectorTest LightColorDetectorTest = new LightColorDetectorTest();
-        LightColorDetectorTest.detecto();
+        LightColorDetectorTest.detect();
     }
-    public void detecto() {
+    public void detect() {
         int wavelength = 579;
         String expectedResult = "Green";
         LightColorDetector LightColorDetector = new LightColorDetector();

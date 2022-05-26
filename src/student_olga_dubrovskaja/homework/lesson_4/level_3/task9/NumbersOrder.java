@@ -3,8 +3,11 @@ package student_olga_dubrovskaja.homework.lesson_4.level_3.task9;
 //- "increasing" if the numbers are in increasing order,
 //- "decreasing" if the numbers are in decreasing order,
 //- "Neither increasing or decreasing order" otherwise.
+import teacher.codereview.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 class NumbersOrder {
     private int firstNumber;
     private int secondNumber;

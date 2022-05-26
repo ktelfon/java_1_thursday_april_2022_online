@@ -1,5 +1,8 @@
 package student_toomas_park.lesson_4.homework.level_5;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class LightColorDetector {
     public String detect(int wavelength) {
         if (wavelength < 380) {

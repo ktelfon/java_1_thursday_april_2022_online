@@ -10,7 +10,9 @@ package student_olga_dubrovskaja.homework.lesson_4.level_7.task24;
 //Подсказка: вынесите в отдельный метод проверку
 //результата и замените её вызовом метода в каждом тесте.
 
+import teacher.codereview.CodeReview;
 
+@CodeReview(approved = true)
 class Calculator {
     public int sum(int firstNumber, int secondNumber) {
         return firstNumber + secondNumber;
