@@ -29,6 +29,17 @@ public class ArraysDemo {
         System.out.println(Arrays.toString(number));
 
 
+        // searching for min value
+        int[] someNumbers = {45, 76, 897, 23, 165, 8, 34, 123, 8, 345, 123, -234, -234, -456456};
+        int result = Integer.MAX_VALUE;
+
+        for (int i = 0; i < someNumbers.length; i++) {
+            if (result > someNumbers[i]) {
+                result = someNumbers[i];
+            }
+        }
+
+        System.out.println(result);
 
     }
 }
