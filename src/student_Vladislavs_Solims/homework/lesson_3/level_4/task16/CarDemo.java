@@ -1,5 +1,8 @@
 package student_Vladislavs_Solims.homework.lesson_3.level_4.task16;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class CarDemo {
     public static void main(String[] args) {
         Car myCar = new Car("Nissan");

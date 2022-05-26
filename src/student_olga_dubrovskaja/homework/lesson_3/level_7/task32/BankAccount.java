@@ -5,9 +5,6 @@ package student_olga_dubrovskaja.homework.lesson_3.level_7.task32;
 //            на консоль владельца банковского счёта и количество денег.
 //            Менять можно только класс BankAccount.
 
-import teacher.codereview.CodeReview;
-
-@CodeReview(approved = true)
 class BankAccount {
     String owner;
     int money;

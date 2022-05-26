@@ -4,9 +4,6 @@ package student_olga_dubrovskaja.homework.lesson_3.level_4;
 //        Исправить и запустить программу.
 //        Менять можно только класс Car.
 
-import teacher.codereview.CodeReview;
-
-@CodeReview(approved = true)
 class Car {
 
     String model;
