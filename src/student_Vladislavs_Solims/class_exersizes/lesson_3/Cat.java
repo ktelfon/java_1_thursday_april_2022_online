@@ -52,7 +52,6 @@ public class Cat {
     public int make0lder(int ageToAdd) {
         this.age += ageToAdd;
         return this.age;
-
     }
 
 }
