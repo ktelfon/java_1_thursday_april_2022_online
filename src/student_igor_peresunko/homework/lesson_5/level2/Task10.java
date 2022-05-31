@@ -8,6 +8,7 @@ public class Task10 {
         number[2] = 300;
         for (int i = 0; i < 3; i++) {
             System.out.println(number[i]);
+
         }
 
     }
