@@ -1,27 +1,27 @@
-package student_toomas_park.lesson_4.homework.level_5;
+package student_artemijs_talamajevs.level_5;
 
-import teacher.codereview.CodeReview;
+import java.util.Scanner;
 
-@CodeReview(approved = true)
-class LightColorDetector {
+public class LightColorDetector {
     public String detect(int wavelength) {
+
+
         if (wavelength < 380) {
-            return "Ivisible Light";
+            return "Iviseble Light";
         } else if (wavelength <= 449) {
             return "Violet";
         } else if (wavelength <= 494){
             return "Blue";
         } else if (wavelength <= 569) {
-            return "Green";
+            return "Gren";
         } else if (wavelength <= 589) {
-            return "Yellow";
+            return "Yelow";
         } else if (wavelength <= 619) {
             return "Orange";
         } else if (wavelength <= 750) {
             return "Red";
         } else {
-            return "Ivisible Light";
+            return "Ivisiible Light";
         }
     }
 }
-
