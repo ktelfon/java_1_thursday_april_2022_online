@@ -3,7 +3,7 @@ package teacher.lesson_6_arrays_while_loop.lessoncode;
 import java.util.Random;
 import java.util.Scanner;
 
-class ArrayUtil {
+class ArrayUtil {  // new comment
 
 	public int getArrayLengthFromUser() {
 		Scanner sc = new Scanner(System.in);
