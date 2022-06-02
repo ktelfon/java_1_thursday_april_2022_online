@@ -11,7 +11,7 @@ class ArrayUtil {  // new comment
 		int arrLength = sc.nextInt();
 		return arrLength;
 	}
-
+//тут был Влад
 	public int[] createArray(int arrayLength) {
 		return new int[arrayLength];
 	}
@@ -27,7 +27,7 @@ class ArrayUtil {  // new comment
 	public void fillArrayWithRandomNumbers(int[] arr) {
 		Random random = new Random();
 		for (int i = 0; i < arr.length; i++) {
-			arr[i] = random.nextInt(1000);
+			arr[i] = random.nextInt(100);
 		}
 	}
 
@@ -37,5 +37,5 @@ class ArrayUtil {  // new comment
 		}
 	}
 
-
+	// test//
 }
