@@ -11,7 +11,7 @@ class ArrayUtil {
 		int arrLength = sc.nextInt();
 		return arrLength;
 	}
-
+//тут был Влад
 	public int[] createArray(int arrayLength) {
 		return new int[arrayLength];
 	}
