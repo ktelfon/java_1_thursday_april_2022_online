@@ -1,6 +1,4 @@
-package student_artemijs_talamajevs.level_5;
-
-import java.util.Scanner;
+package student_artemijs_talamajevs.lesson_4.level_5;
 
 public class LightColorDetector {
     public String detect(int wavelength) {
