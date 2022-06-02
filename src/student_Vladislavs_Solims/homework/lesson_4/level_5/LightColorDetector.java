@@ -4,7 +4,7 @@ public class LightColorDetector {
 
 
     public String detect(int waveLength) {
-        if(waveLength > 379 && waveLength < 450){
+        if (waveLength > 379 && waveLength < 450) {
             return "Violet";
         } else if (waveLength > 449 && waveLength < 495) {
             return "Blue";
@@ -16,7 +16,7 @@ public class LightColorDetector {
             return "Orange";
         } else if (waveLength > 619 && waveLength < 751) {
             return "Red";
-        }else{
+        } else {
             return "Invisible light";
         }
 

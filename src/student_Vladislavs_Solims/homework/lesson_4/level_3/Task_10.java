@@ -11,11 +11,11 @@ public class Task_10 {
         int userNum2 = scanner.nextInt();
         int userNum3 = scanner.nextInt();
 
-        if(userNum1>userNum2 && userNum3<userNum2) {
+        if (userNum1 > userNum2 && userNum3 < userNum2) {
             System.out.println(userNum1);
-        } else if (userNum2>userNum1 && userNum3<userNum1) {
+        } else if (userNum2 > userNum1 && userNum3 < userNum1) {
             System.out.println(userNum2);
-        }else {
+        } else {
             System.out.println(userNum3);
         }
 

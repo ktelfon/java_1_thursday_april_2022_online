@@ -8,9 +8,9 @@ public class Task_6 {
         System.out.println("Write too numbers :");
         int userNum1 = scanner.nextInt();
         int userNum2 = scanner.nextInt();
-        if(userNum1<userNum2){
+        if (userNum1 < userNum2) {
             System.out.println(userNum1 + " - lowest number");
-        }else {
+        } else {
             System.out.println(userNum2 + " - lowest number");
         }
     }

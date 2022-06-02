@@ -5,7 +5,7 @@ public class LeapYearTest {
         LeapYearTest leapYearTest = new LeapYearTest();
         leapYearTest.testLeapYear(2004);
         leapYearTest.testCentury(2100);
-        leapYearTest.testLEapCentury(2000   );
+        leapYearTest.testLEapCentury(2000);
         leapYearTest.testSympleYear(2003);
     }
 

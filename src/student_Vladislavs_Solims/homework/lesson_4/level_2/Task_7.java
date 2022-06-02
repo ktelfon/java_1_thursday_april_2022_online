@@ -9,9 +9,9 @@ public class Task_7 {
         int userNum1 = scanner.nextInt();
         int userNum2 = scanner.nextInt();
 
-        if(userNum1 == userNum2){
+        if (userNum1 == userNum2) {
             System.out.println("Numbers are equals !");
-        }else{
+        } else {
             System.out.println("Numbers are different !");
         }
 
