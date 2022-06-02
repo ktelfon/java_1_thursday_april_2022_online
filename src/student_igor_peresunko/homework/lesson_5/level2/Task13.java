@@ -1,9 +1,11 @@
 package student_igor_peresunko.homework.lesson_5.level2;
 
+import teacher.codereview.CodeReview;
+
 import java.util.Arrays;
 import java.util.Random;
 
-
+@CodeReview(approved = true)
 public class Task13 {
     public static void main(String[] args) {
         int[] number = new int[3];
