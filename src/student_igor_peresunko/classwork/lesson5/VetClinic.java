@@ -21,6 +21,19 @@ public class VetClinic {
         }
     }
 
+    public void dischargeCat(String name){
+        for (int i = 0; i < cages.length; i++) {
+            Cat cat = cages[i];
+
+            if (cat == null) {
+                continue;
+            }
+            if (cat.getName().equals(name)){
+                cages[i] = null;
+            }
+        }
+    }
+
     public void showPatients() {
        System.out.println("Currently admitted patients");
         for (int i = 0; i < cages.length; i++) {
