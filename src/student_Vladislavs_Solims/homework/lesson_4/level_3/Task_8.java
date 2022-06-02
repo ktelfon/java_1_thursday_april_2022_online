@@ -10,11 +10,11 @@ public class Task_8 {
         int userNum2 = scanner.nextInt();
         int userNum3 = scanner.nextInt();
 
-        if(userNum1==userNum2 && userNum2==userNum3) {
+        if (userNum1 == userNum2 && userNum2 == userNum3) {
             System.out.println("equals");
-        } else if (userNum1!=userNum2 && userNum2!=userNum3) {
+        } else if (userNum1 != userNum2 && userNum2 != userNum3) {
             System.out.println("different");
-        }else {
+        } else {
             System.out.println("Neither all are equal or different");
         }
 
@@ -22,7 +22,7 @@ public class Task_8 {
     }
 
 
-    }
+}
 
 
 
