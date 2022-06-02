@@ -1,4 +1,4 @@
-package student_artemijs_talamajevs.lesson_5;
+package student_artemijs_talamajevs.lesson_5.level_1;
 
 import teacher.codereview.CodeReview;
 
