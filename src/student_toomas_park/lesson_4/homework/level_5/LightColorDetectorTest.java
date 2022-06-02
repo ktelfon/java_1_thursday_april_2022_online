@@ -2,6 +2,7 @@ package student_toomas_park.lesson_4.homework.level_5;
 
 
 import teacher.codereview.CodeReview;
+import teacher.lesson_4_if_statement.homework.level_7_senior.solutions.super_task_4.LightColorDetector;
 
 @CodeReview(approved = true)
 class LightColorDetectorTest {

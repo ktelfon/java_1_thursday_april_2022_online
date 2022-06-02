@@ -41,8 +41,9 @@ public class Calculator {
             return false;
         }
     }
-    public int maxOfTrhreeNum(int firstNum , int secondNum , int thirdNum ){
-        if(firstNum>secondNum && firstNum>thirdNum){
+
+    public int maxOfTrhreeNum(int firstNum, int secondNum, int thirdNum) {
+        if (firstNum > secondNum && firstNum > thirdNum) {
             return firstNum;
         } else if (secondNum > firstNum && secondNum > thirdNum) {
             return secondNum;
@@ -54,9 +55,9 @@ public class Calculator {
             return secondNum;
         } else if (firstNum == thirdNum && secondNum < firstNum) {
             return firstNum;
-        }else if (firstNum == thirdNum && secondNum > firstNum) {
+        } else if (firstNum == thirdNum && secondNum > firstNum) {
             return secondNum;
-        }else if (firstNum == secondNum && secondNum < thirdNum) {
+        } else if (firstNum == secondNum && secondNum < thirdNum) {
             return thirdNum;
         } else {
             return firstNum;

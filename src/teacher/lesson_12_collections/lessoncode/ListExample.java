@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-import student_alina_strumpe._lesson_2_level_2_intern_Task_3.Book;
-
 public class ListExample {
 
 	public static void main(String[] args) {
@@ -73,13 +71,13 @@ public class ListExample {
 
 
 
-		List<Book> books = new ArrayList<>();
-		Book book1 = new Book();
-		Book book2 = new Book();
-		Book book3 = new Book();
-		books.add(book1);
-		books.add(book2);
-		books.add(book3);
+//		List<Book> books = new ArrayList<>();
+//		Book book1 = new Book();
+//		Book book2 = new Book();
+//		Book book3 = new Book();
+//		books.add(book1);
+//		books.add(book2);
+//		books.add(book3);
 
 	}
 

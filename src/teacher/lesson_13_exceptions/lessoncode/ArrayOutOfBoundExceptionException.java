@@ -1,6 +1,5 @@
 package teacher.lesson_13_exceptions.lessoncode;
 
-import student_alina_strumpe._lesson_2_level_2_intern_Task_3.Book;
 
 public class ArrayOutOfBoundExceptionException {
 
@@ -29,8 +28,8 @@ public class ArrayOutOfBoundExceptionException {
 	}
 
 	public static void m3() {
-		Book book = new Book();
-		System.out.println("M3");
+//		Book book = new Book();
+//		System.out.println("M3");
 
 		//ArrayOutOfBoundExceptionExceptionV2.m3();
 	}
