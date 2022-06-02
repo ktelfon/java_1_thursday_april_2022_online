@@ -2,6 +2,9 @@ package student_olga_dubrovskaja.homework.lesson_5.level_1.task1_to_task9;
 
 // Найдите ошибку в программе и исправить её:
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class ArrayDefinition1 {
 
     public static void main(String[] args) {

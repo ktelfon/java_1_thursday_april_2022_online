@@ -1,5 +1,7 @@
 package student_olga_dubrovskaja.homework.lesson_5.level_5_and_6.task31_to_40;
 
+import teacher.codereview.CodeReview;
+
 /*
 Task 32
 Создайте класс ArrayUtilTest.
@@ -7,6 +9,7 @@ Task 32
 для метода int[] createArray(int arrayLength)
 из предыдущего задания.
  */
+@CodeReview(approved = true)
 class ArrayUtilTest {
     public static void main(String[] args) {
         ArrayUtilTest test = new ArrayUtilTest();

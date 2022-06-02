@@ -1,9 +1,12 @@
 package student_olga_dubrovskaja.homework.lesson_5.level_7.task41;
 
+import teacher.codereview.CodeReview;
+
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 class ArrayUtil {
 
     public int getArrayLengthFromUser() {

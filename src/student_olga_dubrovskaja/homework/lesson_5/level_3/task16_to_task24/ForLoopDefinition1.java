@@ -1,5 +1,8 @@
 package student_olga_dubrovskaja.homework.lesson_5.level_3.task16_to_task24;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 // Task 16
 class ForLoopDefinition1 {
 

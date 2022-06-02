@@ -1,9 +1,12 @@
 package student_olga_dubrovskaja.homework.lesson_5.level_2.task10_to_task15;
 
+import teacher.codereview.CodeReview;
+
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 class ArrayExercises {
     public static void main(String[] args) {
         ArrayExercises exercise = new ArrayExercises();

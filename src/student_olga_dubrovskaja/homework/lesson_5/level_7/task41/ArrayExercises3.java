@@ -8,6 +8,9 @@ Task 41
 созданного класса ArrayUtil и его методов.
  */
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class ArrayExercises3 {
     public static void main(String[] args) {
         ArrayExercises3 task41 = new ArrayExercises3();
