@@ -1,8 +1,13 @@
 package student_olegs_liliks.homework.lesson_5.level_2;
 
+import teacher.codereview.CodeReview;
+import teacher.codereview.CodeReviewComment;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
+@CodeReview(approved = true)
+@CodeReviewComment(teacher = "Class name must start with a capital letter.")
 public class task_11 {
     public static void main(String[] args) {
         int[] numbers = new int[3];

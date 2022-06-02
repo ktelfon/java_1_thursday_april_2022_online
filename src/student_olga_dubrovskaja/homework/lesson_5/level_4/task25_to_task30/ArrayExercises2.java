@@ -1,10 +1,13 @@
 package student_olga_dubrovskaja.homework.lesson_5.level_4.task25_to_task30;
 
 
+import teacher.codereview.CodeReview;
+
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 class ArrayExercises2 {
     public static void main(String[] args) {
         ArrayExercises2 exercise = new ArrayExercises2();

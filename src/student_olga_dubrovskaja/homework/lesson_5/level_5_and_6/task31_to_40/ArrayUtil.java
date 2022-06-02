@@ -6,9 +6,12 @@ package student_olga_dubrovskaja.homework.lesson_5.level_5_and_6.task31_to_40;
 массива целых чисел указанной длины.
  */
 
+import teacher.codereview.CodeReview;
+
 import java.util.Arrays;
 import java.util.Random;
 
+@CodeReview(approved = true)
 class ArrayUtil {
 
     public int[] createArray(int arrayLength) {
