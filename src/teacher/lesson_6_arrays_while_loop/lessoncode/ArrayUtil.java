@@ -27,7 +27,7 @@ class ArrayUtil {
 	public void fillArrayWithRandomNumbers(int[] arr) {
 		Random random = new Random();
 		for (int i = 0; i < arr.length; i++) {
-			arr[i] = random.nextInt(1000);
+			arr[i] = random.nextInt(100);
 		}
 	}
 
