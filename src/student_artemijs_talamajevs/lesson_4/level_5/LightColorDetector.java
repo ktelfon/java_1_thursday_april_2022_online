@@ -1,25 +1,21 @@
 package student_artemijs_talamajevs.lesson_4.level_5;
 
 public class LightColorDetector {
-    public String detect(int wavelength) {
 
-
-        if (wavelength < 380) {
-            return "Iviseble Light";
-        } else if (wavelength <= 449) {
-            return "Violet";
-        } else if (wavelength <= 494){
-            return "Blue";
-        } else if (wavelength <= 569) {
-            return "Gren";
-        } else if (wavelength <= 589) {
-            return "Yelow";
-        } else if (wavelength <= 619) {
-            return "Orange";
-        } else if (wavelength <= 750) {
-            return "Red";
-        } else {
-            return "Ivisiible Light";
+        String detect(int waveLength) {
+            if (waveLength >= 380 && waveLength <= 449) {
+                return "Violet";
+            } else if (waveLength >= 450 && waveLength <= 494) {
+                return "Blue";
+            } else if (waveLength >= 495 && waveLength <= 569) {
+                return "Green";
+            } else if (waveLength >= 570 && waveLength <= 589) {
+                return "Yellow";
+            } else if (waveLength >= 590 && waveLength <= 619) {
+                return "Orange";
+            } else if (waveLength >= 620 && waveLength <= 750) {
+                return "Red";
+            } else return "Invisible light";
         }
+
     }
-}
