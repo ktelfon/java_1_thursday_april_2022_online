@@ -9,6 +9,16 @@ public class VetClinic {
 
     public void receiveCat(Cat cat) {
         for (int i = 0; i < cages.length; i++) {
+            if (isCageEmpty(i)) {
+                continue;
+            }
+            if (cages[i].equals(cat)) {
+                System.out.println("This animal is already here!");
+                return;
+            }
+        }
+
+        for (int i = 0; i < cages.length; i++) {
             if (cages[i] != null) {
                 continue;
             }
@@ -19,13 +29,11 @@ public class VetClinic {
 
     public void dischargeCat(String name) {
         for (int i = 0; i < cages.length; i++) {
-            Cat cat = cages[i];
-
-            if (cat == null) {
+            if (isCageEmpty(i)) {
                 continue;
             }
 
-            if (cat.getName().equals(name)) {
+            if (cages[i].getName().equals(name)) {
                 cages[i] = null;
             }
         }
@@ -34,10 +42,25 @@ public class VetClinic {
     public void showPatients() {
         System.out.println("Currently admitted patients:");
         for (int i = 0; i < cages.length; i++) {
-            if (cages[i] == null) {
+            if (isCageEmpty(i)) {
                 continue;
             }
-            System.out.println(" - " + cages[i].getName());
+            System.out.println(" - " + cages[i]);
         }
+    }
+
+    public int patientCount() {
+        int counter = 0;
+        for (int i = 0; i < cages.length; i++) {
+            if (isCageEmpty(i)) {
+                continue;
+            }
+            counter++;
+        }
+        return counter;
+    }
+
+    private boolean isCageEmpty(int cageIndex) {
+        return cages[cageIndex] == null;
     }
 }
