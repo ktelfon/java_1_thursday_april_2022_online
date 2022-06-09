@@ -10,7 +10,7 @@ public class Task_13 {
         int array[] = new int[3];
         int sum = 0;
         for (int i = 0; i < array.length; i++) {
-            array[i] = random.nextInt(100);
+            array[i] = random.nextInt(50);
             sum += array[i];
         }
         System.out.println("Arrays sum will be :"  +sum);
