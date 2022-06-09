@@ -1,7 +1,10 @@
 package student_igor_peresunko.homework.lesson_6.level2;
 
+import teacher.codereview.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 public class DayOfTheWeekDetector {
     public int getDayNumberFromUser() {
         Scanner scanner = new Scanner(System.in);

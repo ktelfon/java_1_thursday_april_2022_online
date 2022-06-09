@@ -1,5 +1,8 @@
 package student_igor_peresunko.homework.lesson_6.level2;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class DayOfTheWeekDetectorDemo {
     private static int firstNumber;
 
