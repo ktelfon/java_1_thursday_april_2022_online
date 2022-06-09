@@ -1,7 +1,10 @@
 package student_olga_dubrovskaja.homework.lesson_6.level_3.task_12_to_task_17;
 
+import teacher.codereview.CodeReview;
+
 import java.util.Arrays;
 
+@CodeReview(approved = true)
 class ArrayServiceTest {
     public static void main(String[] args) {
         ArrayServiceTest test = new ArrayServiceTest();

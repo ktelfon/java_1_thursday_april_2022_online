@@ -1,8 +1,11 @@
 package student_olga_dubrovskaja.homework.lesson_6.level_7.task_33;
 
+import teacher.codereview.CodeReview;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 class TicTacToe {
 
     public int[][] createField() {

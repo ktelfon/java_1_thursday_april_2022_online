@@ -1,5 +1,8 @@
 package student_olga_dubrovskaja.homework.lesson_6.level_7.task_32;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class FizzBuzz {
 
     public String detect(int number) {

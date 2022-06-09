@@ -1,5 +1,8 @@
 package student_olga_dubrovskaja.homework.lesson_6.level_5.task_22_to_task_26;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class TicTacToe {
 
     public boolean isWinPositionForHorizontals(int[][] field, int playerToCheck) {

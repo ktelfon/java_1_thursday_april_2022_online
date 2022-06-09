@@ -1,7 +1,10 @@
 package student_olga_dubrovskaja.homework.lesson_6.level_7.task_33;
 
+import teacher.codereview.CodeReview;
+
 import java.util.Arrays;
 
+@CodeReview(approved = true)
 class ComputerPlayerTest {
     public static void main(String[] args) {
         ComputerPlayerTest test = new ComputerPlayerTest();

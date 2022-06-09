@@ -1,5 +1,8 @@
 package student_olga_dubrovskaja.homework.lesson_6.level_2.task_7_to_task_11;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class DayOfTheWeekDetectorTest {
     public void testMonday() {
         DayOfTheWeekDetector testWeek = new DayOfTheWeekDetector();
