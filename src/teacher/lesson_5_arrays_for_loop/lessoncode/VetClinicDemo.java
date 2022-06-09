@@ -14,39 +14,41 @@ public class VetClinicDemo {
 
         System.out.println("Hello!");
 
-        System.out.println(MENU);
         Scanner scr = new Scanner(System.in);
-        int input = scr.nextInt();
+        int input = getUserNumberInput(MENU, scr);
         while (4 != input) {
             switch (input) {
                 case 1:
                     String catName = getUserTextInput("Enter pets name:", scr);
-                    System.out.println("Enter pets age:");
-                    int age = scr.nextInt();
+                    int age = getUserNumberInput("Enter pets age:", scr);
                     clinic.receiveCat(new Cat(catName, age));
                     break;
                 case 2:
                     clinic.showPatients();
                     break;
                 case 3:
-                    System.out.println("Enter pets name:");
-                    String catNameToDischarge = scr.next();
+                    String catNameToDischarge = getUserTextInput("Enter pets name:", scr);
                     clinic.dischargeCat(catNameToDischarge);
                     break;
                 default:
                     System.out.println("Unknown command.");
             }
 
-            System.out.println(MENU);
-            input = scr.nextInt();
+            input = getUserNumberInput(MENU, scr);
         }
         System.out.println("Bye!");
     }
 
     private static String getUserTextInput(String displayText, Scanner scr) {
         System.out.println(displayText);
-        String catName = scr.next();
-        return catName;
+        String input = scr.next();
+        return input;
+    }
+
+    private static int getUserNumberInput(String displayText, Scanner scr) {
+        System.out.println(displayText);
+        int input = scr.nextInt();
+        return input;
     }
 
     public static void addSameCatToClinicTest() {
