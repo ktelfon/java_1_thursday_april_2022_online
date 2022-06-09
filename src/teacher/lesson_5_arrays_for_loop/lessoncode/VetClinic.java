@@ -4,7 +4,6 @@ import teacher.lesson_4_if_statement.lessoncode.Cat;
 
 public class VetClinic {
 
-    private int[] freeCages = new int[10];
     private Cat[] cages = new Cat[10];
 
     public void receiveCat(Cat cat) {

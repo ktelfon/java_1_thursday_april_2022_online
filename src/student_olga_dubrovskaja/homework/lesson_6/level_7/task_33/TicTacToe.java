@@ -47,6 +47,10 @@ class TicTacToe {
             System.out.println("------------");
             printFieldToConsole(field);
             Move move0 = getNextMove();
+            if (field[move0.getX()][move0.getY()] == 1 || field[move0.getX()][move0.getY()] == 0) {
+                System.out.println("Position taken.");
+                continue;
+            }
             field[move0.getX()][move0.getY()] = 0;
             //  printFieldToConsole(field);
             if (isWinPosition(field, 0)) {
@@ -62,7 +66,7 @@ class TicTacToe {
             System.out.println("------------");
             printFieldToConsole(field);
             ComputerPlayer comp = new ComputerPlayer();
-            Move move1 = comp.makeAMove(field,1,0);
+            Move move1 = comp.makeAMove(field, 1, 0);
             field[move1.getX()][move1.getY()] = 1;
 
             if (isWinPosition(field, 1)) {
