@@ -1,7 +1,10 @@
 package student_Vladislavs_Solims.homework.lesson_5.level_2;
 
+import teacher.codereview.CodeReview;
+
 import java.util.Random;
 
+@CodeReview(approved = true)
 public class Task12 {
 
   /*  Напишите программу, в которой:

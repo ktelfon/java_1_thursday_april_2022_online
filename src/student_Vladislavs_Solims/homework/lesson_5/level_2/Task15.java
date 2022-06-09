@@ -1,5 +1,8 @@
 package student_Vladislavs_Solims.homework.lesson_5.level_2;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class Task15 {
 /*
     Напишите программу, в которой:
