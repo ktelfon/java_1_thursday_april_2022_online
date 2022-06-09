@@ -1,5 +1,8 @@
 package student_Vladislavs_Solims.homework.lesson_5.level_4;
 
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class Task25 {
 
  /*   Напишите программу, в которой:
@@ -10,9 +13,20 @@ public class Task25 {
 
 
     public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("Write an arrays size");
+            int arraySize = scanner.nextInt();
+            int[] ar = new int[arraySize];
+            for (int i = 0; i < ar.length ; i++) {
+                ar[i]= scanner.nextInt();
+            }
+            System.out.println(Arrays.toString(ar));
+
+        }
+
 
 
     }
-        }
+
 
 
