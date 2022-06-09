@@ -1,4 +1,4 @@
-package student_Vladislavs_Solims.class_exersizes.lesson_5;
+package student_Vladislavs_Solims.class_exersizes.lesson_6;
 
 import student_Vladislavs_Solims.class_exersizes.lesson_4.Cat;
 
@@ -16,6 +16,19 @@ public class VetClinic {
             }
             cages[i]=cat;
             break;
+        }
+    }
+
+    public void dischargeCat(String name){
+        for (int i = 0; i < cages.length; i++) {
+            Cat cat = cages[i];
+
+            if(cat==null){
+                continue;
+            }
+            if(cat.getName().equals(name)){
+                cages[i]=null;
+            }
         }
     }
     public void showPatients() {

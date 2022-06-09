@@ -1,5 +1,8 @@
 package student_Vladislavs_Solims.homework.lesson_5.level_4;
 
+import student_Vladislavs_Solims.homework.lesson_5.level_5.ArrayUtil;
+
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Task25 {
@@ -12,12 +15,11 @@ public class Task25 {
 
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Write how large massive you want to add !");
-        int[] massiveSize = new int[scanner.nextInt()];
-        for (int i = 0; i < massiveSize.length; i++) {
-            System.out.println(massiveSize);
-        }
-        }
+        ArrayUtil arrayUtil =  new ArrayUtil();
+        int arrayLength = arrayUtil.createArray()
+
+
     }
+        }
+
 
