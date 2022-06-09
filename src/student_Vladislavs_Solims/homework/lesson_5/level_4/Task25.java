@@ -1,10 +1,5 @@
 package student_Vladislavs_Solims.homework.lesson_5.level_4;
 
-import student_Vladislavs_Solims.homework.lesson_5.level_5.ArrayUtil;
-
-import java.util.Arrays;
-import java.util.Scanner;
-
 public class Task25 {
 
  /*   Напишите программу, в которой:
@@ -15,8 +10,6 @@ public class Task25 {
 
 
     public static void main(String[] args) {
-        ArrayUtil arrayUtil =  new ArrayUtil();
-        int arrayLength = arrayUtil.createArray()
 
 
     }
