@@ -1,5 +1,8 @@
 package student_Vladislavs_Solims.homework.lesson_6.level_2;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class DayOfTheWeekDetectorUtil {
 
 

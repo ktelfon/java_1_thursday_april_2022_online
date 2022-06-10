@@ -1,5 +1,8 @@
 package student_Vladislavs_Solims.homework.lesson_6.level_1;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class Main {
 
     class WhileDefinition1 {

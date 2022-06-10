@@ -1,8 +1,11 @@
 package student_Vladislavs_Solims.homework.lesson_5.level_4;
 
+import teacher.codereview.CodeReview;
+
 import java.util.Arrays;
 import java.util.Random;
 
+@CodeReview(approved = true)
 public class Task30 {
 
   /*  Напишите программу, в которой:
