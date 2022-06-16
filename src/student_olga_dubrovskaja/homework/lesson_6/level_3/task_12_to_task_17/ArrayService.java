@@ -2,7 +2,7 @@ package student_olga_dubrovskaja.homework.lesson_6.level_3.task_12_to_task_17;
 
 import java.util.Arrays;
 
-class ArrayService {
+class   ArrayService {
     public boolean contains(int[] array, int numberToFind) {
         boolean contains = false;
         for (int j : array) {
