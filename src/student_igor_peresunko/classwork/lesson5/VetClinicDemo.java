@@ -2,12 +2,11 @@ package student_igor_peresunko.classwork.lesson5;
 
 import student_igor_peresunko.cardemo.Cat;
 
-import java.security.spec.RSAOtherPrimeInfo;
 import java.util.Scanner;
 
 public class VetClinicDemo {
 
-    final static String menu = "Enter : (register(1)) (Show_patients(2)) (discharge(3)) (quit(4))";
+    final static String MENU = "Enter : (register(1)) (Show_patients(2)) (discharge(3)) (quit(4))";
 
     public static void main(String[] args) {
         VetClinic clinic = new VetClinic();
@@ -15,58 +14,75 @@ public class VetClinicDemo {
         System.out.println("Hello");
 
         Scanner scr = new Scanner(System.in);
-        int input = scr.nextInt();
-        while (3 != input) {
+        int input = getUserNumberInput(MENU, scr);
+        while (4 != input) {
             switch (input) {
-
                 case 1:
-                    System.out.println("Enter pats name: ");
-                    String catName = scr.next();
-                    System.out.println("Enter pets age: ");
-                    int age = scr.nextInt();
-                    clinic.receiveCat(new Cat("Cezar", 12));
+                    String catName = getUserTextInput("Enter pets name:", scr);
+                    int age = getUserNumberInput("Enter pets age:", scr);
+                    clinic.receiveCat(new Cat(catName , age));
                     break;
                 case 2:
                     clinic.showPatients();
                     break;
                 case 3:
-                    System.out.println("Enter pats name: ");
-                    String catNameToDischarge = scr.next();
+                    String catNameToDischarge = getUserTextInput("Enter pets name:", scr);
                     clinic.dischargeCat(catNameToDischarge);
                     break;
                 default:
-                    System.out.println("Unknown command");
-
-
+                    System.out.println("Unknown command.");
             }
+
+            input = getUserNumberInput(MENU, scr);
         }
-        //      if ("register".equals(input)){
-        //          System.out.println("Enter pats name: ");
-        //          String catName = scr.next();
-        //          System.out.println("Enter pets age: ");
-        //         int age = scr.nextInt();
-        //         clinic.receiveCat(new Cat("Cezar",12));
-        //   } else if ("show_patients".equals(input)) {
-        //     clinic.showPatients();
+        System.out.println("Bye!");
+    }
 
-        //  }else {
-        //      System.out.println("Unknown command");
-        //  }
-        System.out.println(menu);
-        input = scr.nextInt();
+    private static String getUserTextInput(String displayText, Scanner scr) {
+        System.out.println(displayText);
+        String input = scr.next();
+        return input;
+    }
 
+    private static int getUserNumberInput(String displayText, Scanner scr) {
+        System.out.println(displayText);
+        int input = scr.nextInt();
+        return input;
+    }
 
-        System.out.println("Bye");
+    public static void addSameCatToClinicTest() {
+        VetClinic clinic = new VetClinic();
+        Cat cat = new Cat("Cezar", 12);
+        clinic.receiveCat(cat);
+        clinic.receiveCat(cat);
+        if (clinic.patientCount() == 1) {
+            System.out.println("addSameCatToClinicTest PASS");
+        } else {
+            System.out.println("addSameCatToClinicTest FAIL");
+        }
     }
 
 
-    // clinic.receiveCat(new Cat("Cezar", 12));
-    //clinic.receiveCat(new Cat("Rik", 12));
-    //clinic.receiveCat(new Cat("Bob", 12));
-    //clinic.receiveCat(new Cat("Dori", 12));
-    //clinic.receiveCat(new Cat("Alpha", 12));
-    //clinic.receiveCat(new Cat("Leon", 12));
 
-       // clinic.showPatients();
+
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
