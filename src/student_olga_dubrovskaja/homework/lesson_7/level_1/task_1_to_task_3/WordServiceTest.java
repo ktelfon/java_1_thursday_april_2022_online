@@ -1,7 +1,10 @@
 package student_olga_dubrovskaja.homework.lesson_7.level_1.task_1_to_task_3;
 
+import teacher.codereview.CodeReview;
+
 import java.util.Arrays;
 
+@CodeReview(approved = true)
 class WordServiceTest {
 
     public static void main(String[] args) {

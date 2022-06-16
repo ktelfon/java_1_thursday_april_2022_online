@@ -1,5 +1,8 @@
 package student_olga_dubrovskaja.homework.lesson_7.level_6.task_10;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class CreditCardTest {
     public static void main(String[] args) {
         CreditCardTest test = new CreditCardTest();

@@ -1,5 +1,8 @@
 package student_olga_dubrovskaja.homework.lesson_7.level_7.task_15_to_task_16;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class UserEntityTest {
     public static void main(String[] args) {
         UserEntityTest test = new UserEntityTest();
