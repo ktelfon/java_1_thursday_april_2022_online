@@ -1,5 +1,8 @@
 package student_olga_dubrovskaja.homework.lesson_7.level_6.task_12;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class ArrayCopy {
     int[] copyInRange(int[] in, int numberFrom, int numberTo) {
         int[] copyInRange = new int[countNumberOfElements(in, numberFrom, numberTo)];

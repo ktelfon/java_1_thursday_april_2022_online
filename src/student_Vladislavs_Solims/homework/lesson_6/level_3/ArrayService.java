@@ -1,5 +1,8 @@
 package student_Vladislavs_Solims.homework.lesson_6.level_3;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class ArrayService {
 
 
@@ -27,8 +30,8 @@ public int howMuchContains(int[] arr , int numberToSearch){
 public boolean replaceFirstNumber(int[] arr , int numberToReplace,  int newNumber){
         boolean replaced = false;
     for (int i = 0; i < arr.length; i++) {
-        if(arr[0]==numberToReplace){
-            arr[0]=newNumber;
+        if(arr[i]==numberToReplace){
+            arr[i]=newNumber;
             replaced=true;
            break;
         }
