@@ -61,17 +61,6 @@ public class VetClinicDemo {
             System.out.println("addSameCatToClinicTest FAIL");
         }
     }
-
-
-
-
-
-
-
-
-
-
-
 }
 
 
