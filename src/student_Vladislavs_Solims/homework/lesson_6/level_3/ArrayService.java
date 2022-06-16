@@ -56,6 +56,27 @@ public boolean replaceFirstNumber(int[] arr , int numberToReplace,  int newNumbe
             i--;
         }
     }
+    public void revertArray(int[] array) {
+        int m = 0;
+        for (int i = 0; i < array.length / 2; i++) {
+            m = array[i];
+            array[i] = array[(array.length - 1) - i];
+            array[(array.length - 1) - i] = m;
+        }
+    }
+
+    public void sortArray(int[] array) {
+        int m;
+        for (int i = 0; i < array.length; i++) {
+            for (int j = i + 1; j < array.length; j++) {
+                if (array[i] > array[j]) {
+                    m = array[i];
+                    array[i] = array[j];
+                    array[j] = m;
+                }
+            }
+        }
+    }
 
 
 
