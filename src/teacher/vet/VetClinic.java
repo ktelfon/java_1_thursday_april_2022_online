@@ -1,17 +1,17 @@
 package teacher.vet;
 
-import teacher.lesson_4_if_statement.lessoncode.Cat;
+import teacher.vet.animals.Animal;
 
 public class VetClinic {
 
-    private Cat[] cages = new Cat[10];
+    private Animal[] cages = new Animal[10];
 
-    public void receiveCat(Cat cat) {
+    public void receiveAPatient(Animal animal) {
         for (int i = 0; i < cages.length; i++) {
             if (isCageEmpty(i)) {
                 continue;
             }
-            if (cages[i].equals(cat)) {
+            if (cages[i].equals(animal)) {
                 System.out.println("This animal is already here!");
                 return;
             }
@@ -21,7 +21,7 @@ public class VetClinic {
             if (cages[i] != null) {
                 continue;
             }
-            cages[i] = cat;
+            cages[i] = animal;
             break;
         }
     }

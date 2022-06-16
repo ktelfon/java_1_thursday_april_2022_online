@@ -1,7 +1,8 @@
 package teacher.vet;
 
-import teacher.lesson_4_if_statement.lessoncode.Cat;
-import teacher.lesson_5_arrays_for_loop.lessoncode.VetClinic;
+
+import teacher.vet.animals.Cat;
+import teacher.vet.animals.Dog;
 
 import java.util.Scanner;
 
@@ -11,7 +12,8 @@ public class VetClinicDemo {
 
     public static void main(String[] args) {
         addSameCatToClinicTest();
-        teacher.lesson_5_arrays_for_loop.lessoncode.VetClinic clinic = new teacher.lesson_5_arrays_for_loop.lessoncode.VetClinic();
+        addCatOrDogToClinicTest();
+        VetClinic clinic = new VetClinic();
 
         System.out.println("Hello!");
 
@@ -22,7 +24,7 @@ public class VetClinicDemo {
                 case 1:
                     String catName = getUserTextInput("Enter pets name:", scr);
                     int age = getUserNumberInput("Enter pets age:", scr);
-                    clinic.receiveCat(new Cat(catName, age));
+                    clinic.receiveAPatient(new Cat(catName, age));
                     break;
                 case 2:
                     clinic.showPatients();
@@ -53,14 +55,27 @@ public class VetClinicDemo {
     }
 
     public static void addSameCatToClinicTest() {
-        teacher.lesson_5_arrays_for_loop.lessoncode.VetClinic clinic = new VetClinic();
+        VetClinic clinic = new VetClinic();
         Cat cat = new Cat("Murzik", 12);
-        clinic.receiveCat(cat);
-        clinic.receiveCat(cat);
+        clinic.receiveAPatient(cat);
+        clinic.receiveAPatient(cat);
         if (clinic.patientCount() == 1) {
             System.out.println("addSameCatToClinicTest PASS");
         } else {
             System.out.println("addSameCatToClinicTest FAIL");
+        }
+    }
+
+    public static void addCatOrDogToClinicTest() {
+        VetClinic clinic = new VetClinic();
+        Cat cat = new Cat("Murzik", 12);
+        Dog dog = new Dog("Bobik", 12);
+        clinic.receiveAPatient(dog);
+        clinic.receiveAPatient(cat);
+        if (clinic.patientCount() == 2) {
+            System.out.println("addCatOrDogToClinicTest PASS");
+        } else {
+            System.out.println("addCatOrDogToClinicTest FAIL");
         }
     }
 
