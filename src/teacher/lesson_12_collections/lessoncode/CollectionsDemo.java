@@ -34,8 +34,12 @@ public class CollectionsDemo {
         shapes.add(new Circle("Red", 1));
 
 
-        List<String> things = new LinkedList<>(); things.add("Computer"); things.add("Coffee");
-        for (String thing: things) { System.out.println(thing); }
+        List<String> things = new LinkedList<>();
+        things.add("Computer");
+        things.add("Coffee");
+        for (String thing : things) {
+            System.out.println(thing);
+        }
 
         Map<String, Integer> tableOfContents = new HashMap<>();
         tableOfContents.put("Introduction", 3);
@@ -49,9 +53,9 @@ public class CollectionsDemo {
 
         Map<User, Double> userLog = new HashMap<>();
 
-        userLog.put(new User("D","F","k","L"), 100d);
+        userLog.put(new User("D", "F", "k", "L"), 100d);
         System.out.println(userLog);
-        userLog.put(new User("D","F","k","L"), 10d);
+        userLog.put(new User("D", "F", "k", "L"), 10d);
         System.out.println(userLog);
 
         Set<Map.Entry<User, Double>> entries = userLog.entrySet();

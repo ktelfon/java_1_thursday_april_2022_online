@@ -2,64 +2,36 @@ package teacher.vet;
 
 import teacher.vet.animals.Animal;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class VetClinic {
 
-    private Animal[] cages = new Animal[10];
+    private List<Animal> patients = new ArrayList<>();
 
     public void receiveAPatient(Animal animal) {
-        for (int i = 0; i < cages.length; i++) {
-            if (isCageEmpty(i)) {
-                continue;
-            }
-            if (cages[i].equals(animal)) {
-                System.out.println("This animal is already here!");
-                return;
-            }
+        if (patients.contains(animal)) {
+            System.out.println("This animal is already here!");
+            return;
         }
-
-        for (int i = 0; i < cages.length; i++) {
-            if (cages[i] != null) {
-                continue;
-            }
-            cages[i] = animal;
-            break;
-        }
+        patients.add(animal);
     }
 
     public void dischargeCat(String name) {
-        for (int i = 0; i < cages.length; i++) {
-            if (isCageEmpty(i)) {
-                continue;
-            }
-
-            if (cages[i].getName().equals(name)) {
-                cages[i] = null;
+        for (int i = 0; i < patients.size(); i++) {
+            if (patients.get(i).getName().equals(name)) {
+                patients.remove(patients.get(i));
+                return;
             }
         }
     }
 
     public void showPatients() {
         System.out.println("Currently admitted patients:");
-        for (int i = 0; i < cages.length; i++) {
-            if (isCageEmpty(i)) {
-                continue;
-            }
-            System.out.println(" - " + cages[i]);
-        }
+        System.out.println(patients);
     }
 
     public int patientCount() {
-        int counter = 0;
-        for (int i = 0; i < cages.length; i++) {
-            if (isCageEmpty(i)) {
-                continue;
-            }
-            counter++;
-        }
-        return counter;
-    }
-
-    private boolean isCageEmpty(int cageIndex) {
-        return cages[cageIndex] == null;
+        return patients.size();
     }
 }
