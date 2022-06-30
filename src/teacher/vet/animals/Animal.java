@@ -21,4 +21,19 @@ public abstract class Animal {
     public int getId() {
         return id;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Animal animal = (Animal) o;
+
+        return id == animal.id && name.equals(animal.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return id;
+    }
 }
