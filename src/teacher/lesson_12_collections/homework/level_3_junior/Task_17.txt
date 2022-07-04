@@ -1,4 +1,4 @@
-Продолжаем разработку интерфейса BookDatabase.
+ˇПродолжаем разработку интерфейса BookDatabase.
 
 Создайте класс TitleSearchCriteria:
 
