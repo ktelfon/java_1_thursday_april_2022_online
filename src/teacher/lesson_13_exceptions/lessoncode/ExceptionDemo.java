@@ -1,6 +1,8 @@
 package teacher.lesson_13_exceptions.lessoncode;
 
 import teacher.lesson_13_exceptions.lessoncode.exception.UserNotFound;
+import teacher.lesson_13_exceptions.lessoncode.exception.WrongPassword;
+import teacher.lesson_13_exceptions.lessoncode.login.LoginService;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -11,7 +13,7 @@ public class ExceptionDemo {
         LoginService loginService = new LoginService();
         try {
             loginService.logIn("Hkajsdf", "asdfsdf");
-        } catch (UserNotFound e) {
+        } catch (UserNotFound | WrongPassword e) {
             System.out.println(e);
         }
     }
