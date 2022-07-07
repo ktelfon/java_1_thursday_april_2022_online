@@ -1,4 +1,4 @@
-package student_igor_peresunko.lesson_4.level2;
+package student_igor_peresunko.classwork.lesson_4.level2;
 
 import teacher.codereview.CodeReview;
 

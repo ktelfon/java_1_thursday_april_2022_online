@@ -1,12 +1,11 @@
-package student_igor_peresunko.lesson_4.level2;
+package student_igor_peresunko.classwork.lesson_4.level2;
 
 import teacher.codereview.CodeReview;
 
 import java.util.Scanner;
 
 @CodeReview(approved = true)
-public class Task5 {
-
+public class Task7 {
     public static void main(String[] args) {
         Scanner input1 = new Scanner(System.in);
         System.out.println("Enter the first number: ");
@@ -16,15 +15,10 @@ public class Task5 {
         System.out.println("Enter the second number: ");
         int number2 = input2.nextInt();
 
-        if (number1 > number2) {
-            System.out.println(number1);
-        } else if (number1 == number2) {
-            System.out.println("These numbers are equal to each other");
+        if (number1 == number2) {
+            System.out.println("Numbers are equals");
         } else {
-            System.out.println(number2);
+            System.out.println("Numbers are different");
         }
-
-
     }
-
 }

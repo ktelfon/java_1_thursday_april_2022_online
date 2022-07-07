@@ -1,4 +1,4 @@
-package student_igor_peresunko.lesson_4;
+package student_igor_peresunko.classwork.lesson_4;
 
 public class CatTest {
 

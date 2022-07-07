@@ -1,11 +1,11 @@
-package student_igor_peresunko.lesson_4.level3;
+package student_igor_peresunko.classwork.lesson_4.level3;
 
 import teacher.codereview.CodeReview;
 
 import java.util.Scanner;
 
 @CodeReview(approved = true)
-public class Task10 {
+public class Task9 {
     public static void main(String[] args) {
         Scanner input1 = new Scanner(System.in);
         System.out.println("Enter the first number: ");
@@ -19,17 +19,12 @@ public class Task10 {
         System.out.println("Enter the third number ");
         int number3 = input3.nextInt();
 
-        int greaterNumber = number1;
-
-        if (number2 > number3) {
-            greaterNumber = number2;
-        }
-
-        if (number3 > greaterNumber) {
-            greaterNumber = number3;
-        }
-
-        System.out.println(greaterNumber);
+        if(number1<number2 && number2<number3){
+            System.out.println("increasing");
+        } else if (number1>number2 && number2>number3) {
+            System.out.println("decreasing");
+        }else {
+            System.out.println("Neither increasing or decreasing order");}
 
 
     }

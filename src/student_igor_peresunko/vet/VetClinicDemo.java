@@ -1,17 +1,17 @@
-package student_igor_peresunko.classwork.lesson5;
-
-import student_igor_peresunko.cardemo.Cat;
+package student_igor_peresunko.vet;
 
 import java.util.Scanner;
 
 public class VetClinicDemo {
 
-    final static String MENU = "Enter : (register(1)) (Show_patients(2)) (discharge(3)) (quit(4))";
+    final static String MENU = " Enter : (register(1)) (show_patients(2)) (discharge(3)) (quit(4))";
 
     public static void main(String[] args) {
+        addSameCatToClinicTest();
+        addCatOrDogToClinicTest();
         VetClinic clinic = new VetClinic();
 
-        System.out.println("Hello");
+        System.out.println("Hello!");
 
         Scanner scr = new Scanner(System.in);
         int input = getUserNumberInput(MENU, scr);
@@ -20,7 +20,7 @@ public class VetClinicDemo {
                 case 1:
                     String catName = getUserTextInput("Enter pets name:", scr);
                     int age = getUserNumberInput("Enter pets age:", scr);
-                    clinic.receiveCat(new Cat(catName , age));
+                    clinic.receiveAPatient(new Cat(catName , age));
                     break;
                 case 2:
                     clinic.showPatients();
@@ -38,13 +38,13 @@ public class VetClinicDemo {
         System.out.println("Bye!");
     }
 
-    private static String getUserTextInput(String displayText, Scanner scr) {
+    private static String getUserTextInput (String displayText , Scanner scr){
         System.out.println(displayText);
         String input = scr.next();
         return input;
     }
 
-    private static int getUserNumberInput(String displayText, Scanner scr) {
+    public static int getUserNumberInput (String displayText , Scanner scr){
         System.out.println(displayText);
         int input = scr.nextInt();
         return input;
@@ -53,15 +53,38 @@ public class VetClinicDemo {
     public static void addSameCatToClinicTest() {
         VetClinic clinic = new VetClinic();
         Cat cat = new Cat("Cezar", 12);
-        clinic.receiveCat(cat);
-        clinic.receiveCat(cat);
+        clinic.receiveAPatient(cat);
+        clinic.receiveAPatient(cat);
         if (clinic.patientCount() == 1) {
             System.out.println("addSameCatToClinicTest PASS");
         } else {
             System.out.println("addSameCatToClinicTest FAIL");
         }
     }
+
+
+    public static void addCatOrDogToClinicTest() {
+        VetClinic clinic = new VetClinic();
+        Cat cat = new Cat("Cezar", 12);
+        Dog dog = new Dog("Bobik", 12);
+        clinic.receiveAPatient(dog);
+        clinic.receiveAPatient(cat);
+        if (clinic.patientCount() == 2) {
+            System.out.println("addCatOrDogToClinicTest PASS");
+        } else {
+            System.out.println("addCatOrDogToClinicTest FAIL");
+        }
+    }
+
+
+
+
+
+
+
+
 }
+
 
 
 

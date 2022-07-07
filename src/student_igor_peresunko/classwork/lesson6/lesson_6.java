@@ -14,17 +14,6 @@ public class lesson_6 {
                 {1,2,3,4,5}
 
         };
-        /*
-        *
-        * [
-        *   table[0]==[1,2,3,4,5],
-        *   table[1]==[1,2,3,4,5],
-        *   table[2]==[1,2,3,4,5],
-        *   table[3]==[1,2,3,4,1],
-        *   table[4]==[1,1,1,1,1]
-        *
-        *
-        *  */
 
         for (int i = 0; i < table.length; i++) {
             for (int j = 0; j < table[i].length; i++) {
@@ -35,7 +24,7 @@ public class lesson_6 {
             for (int j = 0; j < table[i].length; i++) {
 
                 System.out.println("i:" + i);
-                System.out.println("j:" + i);
+                System.out.println("j:" + j);
                 System.out.println("value: " + table[i][j]);
             }
         }
