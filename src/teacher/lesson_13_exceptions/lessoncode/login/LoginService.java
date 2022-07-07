@@ -25,6 +25,6 @@ public class LoginService {
                 return true;
             }
         }
-        throw new UserNotFound("No user with name: " + userName + " found");
+        throw new UserNotFound("No user with name: " + userName + " found", userName);
     }
 }
