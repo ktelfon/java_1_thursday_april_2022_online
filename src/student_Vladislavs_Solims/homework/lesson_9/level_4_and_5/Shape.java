@@ -1,6 +1,6 @@
 package student_Vladislavs_Solims.homework.lesson_9.level_4_and_5;
 
-abstract class Shape {
+public  abstract class Shape {
 
     private String title;
 
