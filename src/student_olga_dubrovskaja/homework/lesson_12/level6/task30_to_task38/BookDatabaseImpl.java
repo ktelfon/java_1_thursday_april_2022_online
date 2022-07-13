@@ -97,6 +97,18 @@ class BookDatabaseImpl implements BookDatabase {
     @Override
     public List<Book> find(SearchCriteria searchCriteria) {
         List<Book> foundBooks = new ArrayList<>();
+
+        if (SearchCriteria.page.getPageNumber() != 0 && SearchCriteria.page.getPageSize() != 0) {
+            int from = SearchCriteria.page.getPageNumber() * SearchCriteria.page.getPageSize();
+            int to = from + SearchCriteria.page.getPageSize();
+            for (int i = from; i < to; i++) {
+                if (searchCriteria.match(foundBooks.get(i))) {
+                    foundBooks.add(foundBooks.get(i));
+                }
+            }
+            return foundBooks;
+        }
+
         for (Book book : books) {
             if (searchCriteria.match(book)) {
                 foundBooks.add(book);
