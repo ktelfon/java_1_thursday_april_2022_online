@@ -42,7 +42,7 @@ public class CatTest {
         Cat cat = new Cat("Tom", 12);
 
         boolean expectedResult = true;
-        cat.feed(CatFood.BIRDS);
+        cat.feed(CatFood.MEAT);
         boolean realResult = cat.isHungry();
 
         if (expectedResult == realResult) {

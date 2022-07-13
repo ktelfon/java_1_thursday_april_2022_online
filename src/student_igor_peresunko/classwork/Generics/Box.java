@@ -1,11 +1,18 @@
 package student_igor_peresunko.classwork.Generics;
 
-public class Box<T> {
+import student_igor_peresunko.vet.Animal;
+
+public class Box<T extends Animal> {
 
     private T item;
+    private String label;
 
     public Box(T item) {
         this.item = item;
+    }
+
+    public  boolean isBosFull(){
+        return item != null;
     }
 
     public T getItem() {

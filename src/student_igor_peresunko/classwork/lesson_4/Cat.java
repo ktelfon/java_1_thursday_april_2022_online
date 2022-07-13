@@ -28,7 +28,10 @@ public class Cat extends Animal {
     }
 
 
+    public int makeOlder(int i) {
+        return 0;
     }
+}
 
 
 
