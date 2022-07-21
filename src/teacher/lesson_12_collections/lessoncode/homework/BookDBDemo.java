@@ -8,7 +8,6 @@ public class BookDBDemo {
     public static void main(String[] args) {
         BookDatabase bookDatabase = new BookDatabaseImpl();
 
-
         String authorToSearch = "Kuper";
         String titleToSearch = "Zveroboi";
         String yearOfIssueToSearch = "1890";
