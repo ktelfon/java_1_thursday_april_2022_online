@@ -2,10 +2,7 @@ package teacher.lesson_15_streams.lessoncode;
 
 import teacher.vet.animals.Cat;
 
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.function.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -104,9 +101,31 @@ public class StreamDemo {
 
         System.out.println(toysWithDiscount);
 
-//        products.stream()
-//                .filter(product -> bookCategory.equals(product.getCategory()))
-//                .sorted()
+        Optional<Product> cheapestProduct = products.stream()
+                .filter(product -> bookCategory.equals(product.getCategory()))
+                .sorted(Comparator.comparing(Product::getPrice))
+                .findFirst();
+
+        System.out.println(cheapestProduct);
+
+        Optional<Double> reduce = products.stream()
+//                .map(Product::getPrice)
+                .map(product -> product.getPrice())
+                .reduce((i, j) -> {
+                    System.out.println(i);
+                    System.out.println(j);
+                    return i + j;
+                });
+
+        System.out.println(reduce);
+
+        Map<String, Double> total = products.stream()
+                .collect(Collectors.toMap(
+                        p -> p.getCategory(),
+                        p -> p.getPrice(),
+                        (i, j) -> i + j
+                ));
+        System.out.println(total);
 
     }
 
