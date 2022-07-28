@@ -4,6 +4,7 @@ import teacher.lesson_12_collections.lessoncode.homework.criteria.SearchCriteria
 
 import java.util.List;
 import java.util.Optional;
+import java.util.Set;
 
 public interface BookDatabase {
     Long save(Book book);
@@ -19,4 +20,6 @@ public interface BookDatabase {
     void deleteByTitle(String title);
 
     List<Book> find(SearchCriteria searchCriteria);
+
+    Set<String> findUniqueAuthor();
 }

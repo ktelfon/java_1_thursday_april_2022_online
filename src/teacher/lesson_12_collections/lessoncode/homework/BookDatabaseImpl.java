@@ -2,9 +2,7 @@ package teacher.lesson_12_collections.lessoncode.homework;
 
 import teacher.lesson_12_collections.lessoncode.homework.criteria.SearchCriteria;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 
 public class BookDatabaseImpl implements BookDatabase {
 
@@ -94,4 +92,20 @@ public class BookDatabaseImpl implements BookDatabase {
         }
         return result;
     }
+
+    @Override
+    public Set<String> findUniqueAuthor() {
+        Set<String> result = new HashSet<>();
+
+        for (Book book : books) {
+            result.add(book.getAuthor());
+        }
+
+//        for (int i = 0; i < books.size(); i++) {
+//            result.add(books.get(i).getAuthor());
+//        }
+
+        return result;
+    }
+
 }
