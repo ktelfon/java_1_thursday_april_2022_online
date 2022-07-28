@@ -1,4 +1,6 @@
-package student_Vladislavs_Solims.homework.lesson_12.level_2;
+package student_Vladislavs_Solims.homework.lesson_12.level_2_7;
+
+import student_Vladislavs_Solims.homework.lesson_12.level_2_7.criteria.SearchCriteria;
 
 import java.util.List;
 import java.util.Map;
