@@ -1,4 +1,7 @@
-package student_Vladislavs_Solims.homework.lesson_12.level_2;
+package student_Vladislavs_Solims.homework.lesson_12.level_2_7.criteria;
+
+import student_Vladislavs_Solims.homework.lesson_12.level_2_7.Book;
+import student_Vladislavs_Solims.homework.lesson_12.level_2_7.criteria.SearchCriteria;
 
 public class TitleSearchCriteria implements SearchCriteria {
 
@@ -9,9 +12,9 @@ public class TitleSearchCriteria implements SearchCriteria {
     }
 
     public boolean match(Book book) {
-        if(titleToSearch.equals(book.getTitle())){
+        if (titleToSearch.equals(book.getTitle())) {
             return true;
-        }else{
+        } else {
             return false;
         }
 

@@ -1,16 +1,24 @@
-package student_Vladislavs_Solims.homework.lesson_12.level_2;
+package student_Vladislavs_Solims.homework.lesson_12.level_2_7;
 
 import java.util.Objects;
 
 public class Book {
+
     private Long id;
     private String title;
     private String author;
     private String yearOfIssue;
 
-    Book(String author, String title , String yearOfIssue  ) {
+    public Book(String title, String author, String yearOfIssue) {
+        this.title = title;
+        this.author = author;
+        this.yearOfIssue = yearOfIssue;
+    }
+
+    Book(String author, String title , String yearOfIssue, Long id  ) {
         this.author = author;
         this.title = title;
+        this.id =id;
        this.yearOfIssue=yearOfIssue;
     }
 
@@ -45,5 +53,15 @@ public class Book {
     @Override
     public int hashCode() {
         return Objects.hash(id, title, author);
+    }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "id=" + id +
+                ", title='" + title + '\'' +
+                ", author='" + author + '\'' +
+                ", yearOfIssue='" + yearOfIssue + '\'' +
+                '}';
     }
 }

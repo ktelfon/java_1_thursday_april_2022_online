@@ -1,6 +1,8 @@
-package student_Vladislavs_Solims.homework.lesson_12.level_2;
+package student_Vladislavs_Solims.homework.lesson_12.level_2_7.criteria;
 
-public class OrSearchCriteria  implements  SearchCriteria {
+import student_Vladislavs_Solims.homework.lesson_12.level_2_7.Book;
+
+public class OrSearchCriteria implements SearchCriteria {
 
     private SearchCriteria leftCondition;
     private SearchCriteria rightCondition;
@@ -12,10 +14,6 @@ public class OrSearchCriteria  implements  SearchCriteria {
     }
 
     public boolean match(Book book) {
-        if (book.equals(leftCondition) && (book.equals(rightCondition))) {
-            return true;
-        } else {
-            return false;
-        }
+        return leftCondition.match(book) || rightCondition.match(book);
     }
 }
