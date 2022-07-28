@@ -121,10 +121,11 @@ public class StreamDemo {
 
         Map<String, Double> total = products.stream()
                 .collect(Collectors.toMap(
-                        p -> p.getCategory(),
-                        p -> p.getPrice(),
+                        p -> p.getCategory(),//key
+                        p -> p.getPrice(), // value
                         (i, j) -> i + j
                 ));
+
         System.out.println(total);
 
     }
