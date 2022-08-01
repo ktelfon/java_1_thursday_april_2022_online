@@ -5,10 +5,10 @@ import student_toomas_park.lesson_4.homework.level_7.FizzBuzz;
 class FizzBuzzTest {
     public static void main(String[] args) {
         FizzBuzzTest test = new FizzBuzzTest();
-        test.testn1(3);
-        test.testn2(5);
-        test.testn3(15);
-        test.testn4(4);
+        test.testn1(2021);
+        test.testn2(2024);
+        test.testn3(1998);
+        test.testn4(1693);
     }
         public void testn1(int number){
             String expectedResult = "Fizz";
