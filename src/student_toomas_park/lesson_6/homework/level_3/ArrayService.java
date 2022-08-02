@@ -33,4 +33,14 @@ public class ArrayService {
         }
         return replace;
     }
+    public boolean replaceAll(int[] numbers, int numberToReplace, int newNumber) {
+        boolean replace = false;
+        for (int i = 0; i < numbers.length; i++) {
+            if (numbers[i] == numberToReplace) {
+                numbers[i] = newNumber;
+                replace = true;
+            }
+        }
+        return replace;
+    }
 }

@@ -11,6 +11,8 @@ public class ArrayServiceTest {
         test.shouldCountZero();
         test.shouldReplaceFirstNumber();
         test.shouldNotReplaceFirstNumber();
+        test.shouldReplaceAll();
+        test.shouldNotReplaceAll();
     }
     public static void shouldContainNumber(){
         ArrayService testArrayService = new ArrayService();
@@ -58,6 +60,24 @@ public class ArrayServiceTest {
         int[] expectResult = {5, 3, 3, 2, 1};
         testArrayService.replaceFirst(numbers, numberToReplace, newNumber);
         checkTestResult(Arrays.equals(numbers, expectResult), "Test NOT repalce first number " + numberToReplace + " with " + newNumber + " : ");
+    }
+    public static void shouldReplaceAll(){
+        ArrayService testArrayService = new ArrayService();
+        int[] numbers = {5, 3, 3, 2, 1};
+        int numberToReplace = 3;
+        int newNumber = 8;
+        int[] expectResult = {5, 8, 8, 2, 1};
+        testArrayService.replaceAll(numbers, numberToReplace, newNumber);
+        checkTestResult(Arrays.equals(numbers, expectResult), "Test repalced all numbers " + numberToReplace + " with " + newNumber + " : ");
+    }
+    public static void shouldNotReplaceAll(){
+        ArrayService testArrayService = new ArrayService();
+        int[] numbers = {5, 3, 3, 2, 1};
+        int numberToReplace = 13;
+        int newNumber = 8;
+        int[] expectResult = {5, 3, 3, 2, 1};
+        testArrayService.replaceAll(numbers, numberToReplace, newNumber);
+        checkTestResult(Arrays.equals(numbers, expectResult), "Test NOT repalced all numbers " + numberToReplace + " with " + newNumber + " : ");
     }
 
     private static void checkTestResult(boolean condition, String testName) {
