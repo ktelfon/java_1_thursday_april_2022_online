@@ -43,4 +43,12 @@ public class ArrayService {
         }
         return replace;
     }
+    public void revert(int[] numbers){
+        int n = 0;
+        for (int i = 0; i < numbers.length / 2; i++) {
+            n = numbers[i];
+            numbers[i] = numbers[(numbers.length - 1) - i];
+            numbers[(numbers.length - 1) - i] = n;
+        }
+    }
 }

@@ -13,6 +13,7 @@ public class ArrayServiceTest {
         test.shouldNotReplaceFirstNumber();
         test.shouldReplaceAll();
         test.shouldNotReplaceAll();
+        test.shouldRevert();
     }
     public static void shouldContainNumber(){
         ArrayService testArrayService = new ArrayService();
@@ -78,6 +79,13 @@ public class ArrayServiceTest {
         int[] expectResult = {5, 3, 3, 2, 1};
         testArrayService.replaceAll(numbers, numberToReplace, newNumber);
         checkTestResult(Arrays.equals(numbers, expectResult), "Test NOT repalced all numbers " + numberToReplace + " with " + newNumber + " : ");
+    }
+    public static void shouldRevert(){
+        ArrayService testArrayService = new ArrayService();
+        int[] numbers = {5, 4, 3, 2, 1};
+        int[] expectResult = {1, 2, 3, 4, 5};
+        testArrayService.revert(numbers);
+        checkTestResult(Arrays.equals(numbers, expectResult), "Test revert numbers : ");
     }
 
     private static void checkTestResult(boolean condition, String testName) {
