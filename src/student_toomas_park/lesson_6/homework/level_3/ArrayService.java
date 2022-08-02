@@ -51,4 +51,16 @@ public class ArrayService {
             numbers[(numbers.length - 1) - i] = n;
         }
     }
+    public void sort(int[] numbers){
+        int n;
+        for (int i = 0; i < numbers.length; i++) {
+            for (int k = i + 1; k < numbers.length; k++) {
+                if (numbers[i] > numbers[k]) {
+                    n = numbers[i];
+                    numbers[i] = numbers[k];
+                    numbers[k] = n;
+                }
+            }
+        }
+    }
 }

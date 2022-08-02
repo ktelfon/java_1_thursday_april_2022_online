@@ -14,6 +14,7 @@ public class ArrayServiceTest {
         test.shouldReplaceAll();
         test.shouldNotReplaceAll();
         test.shouldRevert();
+        test.shouldSort();
     }
     public static void shouldContainNumber(){
         ArrayService testArrayService = new ArrayService();
@@ -86,6 +87,15 @@ public class ArrayServiceTest {
         int[] expectResult = {1, 2, 3, 4, 5};
         testArrayService.revert(numbers);
         checkTestResult(Arrays.equals(numbers, expectResult), "Test revert numbers : ");
+    }
+
+
+    public static void shouldSort(){
+        ArrayService testArrayService = new ArrayService();
+        int[] numbers = {5, 2, 3, 4, 1};
+        int[] expectResult = {1, 2, 3, 4, 5};
+        testArrayService.sort(numbers);
+        checkTestResult(Arrays.equals(numbers, expectResult), "Test sorting numbers : ");
     }
 
     private static void checkTestResult(boolean condition, String testName) {
