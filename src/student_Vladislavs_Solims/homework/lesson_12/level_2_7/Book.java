@@ -15,11 +15,11 @@ public class Book {
         this.yearOfIssue = yearOfIssue;
     }
 
-    Book(String title, String author , String yearOfIssue, Long id  ) {
+    Book(String title, String author, String yearOfIssue, Long id) {
         this.author = author;
         this.title = title;
-        this.id =id;
-       this.yearOfIssue=yearOfIssue;
+        this.id = id;
+        this.yearOfIssue = yearOfIssue;
     }
 
     public void setId(Long id) {

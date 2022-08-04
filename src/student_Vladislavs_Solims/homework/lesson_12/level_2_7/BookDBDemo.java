@@ -15,10 +15,9 @@ public class BookDBDemo {
 
         bookDatabase.save(new Book("Zveroboj", "Kuper", "2020"));
         long id = bookDatabase.save(new Book("History", "Vlad", "2000"));
-       bookDatabase.save(new Book("Krutoj", "Vlad", "2022"));
-       bookDatabase.save(new Book("Vlastj", "Vlad", "2022"));
-       bookDatabase.save(new Book("Privet", "Vlad", "2022"));
-
+        bookDatabase.save(new Book("Krutoj", "Vlad", "2022"));
+        bookDatabase.save(new Book("Vlastj", "Vlad", "2022"));
+        bookDatabase.save(new Book("Privet", "Vlad", "2022"));
 
 
         System.out.println(id);
@@ -44,8 +43,9 @@ public class BookDBDemo {
         System.out.println(bookDatabase.find("Vlad"));
         System.out.println(bookDatabase.countAllBooks());
         System.out.println();
-        System.out.println(bookDatabase.getAuthorToBooksMap("Vlad" ));
+        System.out.println(bookDatabase.getAuthorToBooksMap("Vlad"));
         System.out.println();
         System.out.println(bookDatabase.getEachAuthorBookCount("Vlad"));
+
     }
 }

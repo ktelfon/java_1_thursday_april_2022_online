@@ -91,7 +91,7 @@ public class BookDatabaseImpl implements BookDatabase {
     @Override
     public Set<String> findUniqueTitles() {
         Set<String> result = new HashSet<>();
-        for(Book book : books) {
+        for (Book book : books) {
             result.add(book.getTitle());
         }
         return result;
@@ -100,7 +100,7 @@ public class BookDatabaseImpl implements BookDatabase {
     @Override
     public Set<Book> findUniqueBooks() {
         Set<Book> result = new HashSet<>();
-        for(Book book : books) {
+        for (Book book : books) {
             result.add(book);
         }
         return result;
@@ -108,10 +108,10 @@ public class BookDatabaseImpl implements BookDatabase {
 
     @Override
     public boolean contains(Book book) {
-        for(Book book1 : books) {
-            if(book1.getTitle()==book.getTitle()){
+        for (Book book1 : books) {
+            if (book1.getTitle() == book.getTitle()) {
                 return true;
-            }else{
+            } else {
 
             }
 
@@ -121,23 +121,23 @@ public class BookDatabaseImpl implements BookDatabase {
 
     @Override
     public Map<String, List<Book>> getAuthorToBooksMap(String author) {
-    Map<String , List<Book>> result = new HashMap<>();
-     for(Book book : books) {
-        if(book.getAuthor().equals(author)) {
-            authors.add(book);
-         result.put(author , authors);
+        Map<String, List<Book>> result = new HashMap<>();
+        for (Book book : books) {
+            if (book.getAuthor().equals(author)) {
+                authors.add(book);
+                result.put(author, authors);
 
+            }
         }
-    }
         return result;
     }
 
     @Override
     public Map<String, List<Integer>> getEachAuthorBookCount(String author) {
-        Map<String , List<Integer>> result = new HashMap<>() ;
+        Map<String, List<Integer>> result = new HashMap<>();
         Integer i = 1;
-        for(Book book : books) {
-            if(book.getAuthor().equals(author)) {
+        for (Book book : books) {
+            if (book.getAuthor().equals(author)) {
                 counting.add(i);
                 result.put(author, counting);
                 i++;
@@ -149,8 +149,8 @@ public class BookDatabaseImpl implements BookDatabase {
     @Override
     public Set<String> find(String text) {
         Set<String> result = new HashSet<>();
-        for(Book book : books) {
-            if(text.equals(book.getAuthor()))  {
+        for (Book book : books) {
+            if (text.equals(book.getAuthor())) {
                 result.add(book.getTitle());
                 result.add(book.getAuthor());
                 System.out.println();
@@ -158,7 +158,7 @@ public class BookDatabaseImpl implements BookDatabase {
                 result.add(book.getTitle());
                 result.add(book.getAuthor());
                 System.out.println();
-            } else if ( text.equals(book.getYearOfIssue())) {
+            } else if (text.equals(book.getYearOfIssue())) {
                 result.add(book.getTitle());
                 result.add(book.getAuthor());
                 System.out.println();
@@ -170,10 +170,10 @@ public class BookDatabaseImpl implements BookDatabase {
     @Override
     public int countAllBooks() {
         int result = 0;
-        for(int i = 0; i <= books.size() ; i++) {
-          result = i;
+        for (int i = 0; i <= books.size(); i++) {
+            result = i;
         }
-      return  result;
+        return result;
     }
 
     @Override
