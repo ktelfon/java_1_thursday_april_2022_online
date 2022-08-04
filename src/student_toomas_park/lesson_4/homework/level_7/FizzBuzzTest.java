@@ -1,7 +1,5 @@
 package student_toomas_park.lesson_4.homework.level_7;
 
-import student_toomas_park.lesson_4.homework.level_7.FizzBuzz;
-
 class FizzBuzzTest {
     public static void main(String[] args) {
         FizzBuzzTest test = new FizzBuzzTest();

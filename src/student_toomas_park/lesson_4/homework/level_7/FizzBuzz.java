@@ -1,6 +1,5 @@
 package student_toomas_park.lesson_4.homework.level_7;
 
-import java.util.Scanner;
 
 class FizzBuzz {
     public String detect(int number) {
