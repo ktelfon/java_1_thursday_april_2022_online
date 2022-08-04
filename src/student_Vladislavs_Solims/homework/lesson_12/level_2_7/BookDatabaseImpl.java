@@ -3,12 +3,12 @@ package student_Vladislavs_Solims.homework.lesson_12.level_2_7;
 import student_Vladislavs_Solims.homework.lesson_12.level_2_7.criteria.SearchCriteria;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class BookDatabaseImpl implements BookDatabase {
 
     private static Long bookId = 0l;
     private List<Book> books = new ArrayList<>();
-    private List<Book> authors = new ArrayList<>();
     private List<Integer> counting = new ArrayList<>();
 
     @Override
@@ -120,28 +120,25 @@ public class BookDatabaseImpl implements BookDatabase {
     }
 
     @Override
-    public Map<String, List<Book>> getAuthorToBooksMap(String author) {
+    public Map<String, List<Book>> getAuthorToBooksMap() {
         Map<String, List<Book>> result = new HashMap<>();
         for (Book book : books) {
-            if (book.getAuthor().equals(author)) {
-                authors.add(book);
-                result.put(author, authors);
-
-            }
+            String author = book.getAuthor();
+            List<Book> bookByAuthor = result.getOrDefault(author, new ArrayList<>());
+            bookByAuthor.add(book);
+            result.put(author, bookByAuthor);
         }
+
         return result;
     }
 
     @Override
-    public Map<String, List<Integer>> getEachAuthorBookCount(String author) {
-        Map<String, List<Integer>> result = new HashMap<>();
-        Integer i = 1;
+    public Map<String, Integer> getEachAuthorBookCount() {
+        Map<String, Integer> result = new HashMap<>();
         for (Book book : books) {
-            if (book.getAuthor().equals(author)) {
-                counting.add(i);
-                result.put(author, counting);
-                i++;
-            }
+            String author = book.getAuthor();
+            Integer amountOfBooks = result.getOrDefault(author, 0);
+            result.put(author, ++amountOfBooks);
         }
         return result;
     }

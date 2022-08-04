@@ -43,9 +43,11 @@ public class BookDBDemo {
         System.out.println(bookDatabase.find("Vlad"));
         System.out.println(bookDatabase.countAllBooks());
         System.out.println();
-        System.out.println(bookDatabase.getAuthorToBooksMap("Vlad"));
+        System.out.println(bookDatabase.getAuthorToBooksMap());
         System.out.println();
-        System.out.println(bookDatabase.getEachAuthorBookCount("Vlad"));
+        System.out.println(bookDatabase.getAuthorToBooksMap());
+        System.out.println(bookDatabase.getAuthorToBooksMap());
+        System.out.println(bookDatabase.getEachAuthorBookCount());
 
     }
 }

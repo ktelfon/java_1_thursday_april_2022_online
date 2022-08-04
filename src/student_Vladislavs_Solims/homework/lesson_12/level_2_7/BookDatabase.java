@@ -31,9 +31,9 @@ public interface BookDatabase {
 
     boolean contains(Book book);
 
-    Map<String, List<Book>> getAuthorToBooksMap(String author);
+    Map<String, List<Book>> getAuthorToBooksMap();
 
-    Map<String, List<Integer>> getEachAuthorBookCount(String author);
+    Map<String, Integer> getEachAuthorBookCount();
 
     Set<String> find(String text);
 
