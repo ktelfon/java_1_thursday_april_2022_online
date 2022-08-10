@@ -1,0 +1,14 @@
+package student_igor_peresunko.classwork.Threads.threads;
+
+public class Counter {
+    private int count;
+    public void inc(){
+        synchronized (this) {
+            count++;
+        }
+    }
+
+    public int getCount(){
+        return count;
+    }
+}
