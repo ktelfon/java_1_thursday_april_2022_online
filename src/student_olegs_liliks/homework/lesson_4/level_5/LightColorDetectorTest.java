@@ -7,8 +7,8 @@ public class LightColorDetectorTest {
 
     }
     public void detect() {
-        int wavelength = 333;
-        String expectedResult = "Invisible Light";
+        int wavelength = 500;
+        String expectedResult = "Green";
         LightColorDetector LightColorDetector = new LightColorDetector();
         String realResult = LightColorDetector.detect(wavelength);
          if (realResult == expectedResult) {
