@@ -10,7 +10,6 @@ public class BookLibraryApplication {
             " (Find book by title(4)) \n" +
             " (Delete book by id(5)) \n" +
             " If you want to quit press (0)";
-
     public static void main(String[] args) {
 
         BookLibrary bookLibrary = new BookLibrary();

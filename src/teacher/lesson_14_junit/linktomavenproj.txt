@@ -1,1 +1,3 @@
 https://github.com/ktelfon/junitmaven
+
+https://github.com/ktelfon/junintproject

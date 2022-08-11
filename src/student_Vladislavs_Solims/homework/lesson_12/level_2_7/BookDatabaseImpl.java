@@ -124,6 +124,7 @@ public class BookDatabaseImpl implements BookDatabase {
     @Override
     public Map<String, List<Book>> getAuthorToBooksMap() {
         Map<String, List<Book>> result = new HashMap<>();
+        List<Book> authors = new ArrayList<>();
         for (Book book : books) {
             String author = book.getAuthor();
             List<Book> bookByAuthor = result.getOrDefault(author, new ArrayList<>());
