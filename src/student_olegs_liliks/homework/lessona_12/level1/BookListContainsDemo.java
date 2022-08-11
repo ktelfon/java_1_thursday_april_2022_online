@@ -1,8 +1,11 @@
 package student_olegs_liliks.homework.lessona_12.level1;
 
+import teacher.codereview.CodeReview;
+
 import java.util.ArrayList;
 import java.util.List;
 
+@CodeReview(approved = true)
 public class BookListContainsDemo {
     public static void main(String[] args) {
 
@@ -12,8 +15,8 @@ public class BookListContainsDemo {
     Book book1 = new Book("A1", "B1");
     Book book2 = new Book("A2", "B2");
 
-books.add(book1);
-books.add(book2);
+    books.add(book1);
+    books.add(book2);
 
     Book bookInTheList = new Book("A1", "B1");
     boolean containsBook = books.contains(bookInTheList); // должно быть true

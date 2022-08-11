@@ -1,7 +1,9 @@
 package student_igor_peresunko.homework.lesson3.level3;
 
 import student_igor_peresunko.homework.lesson3.level1.Robot;
+import teacher.codereview.CodeReview;
 
+@CodeReview(approved = true)
 public class RobotDemo {
     public static void main(String[] args){
         student_igor_peresunko.homework.lesson3.level1.Robot robot = new student_igor_peresunko.homework.lesson3.level1.Robot();

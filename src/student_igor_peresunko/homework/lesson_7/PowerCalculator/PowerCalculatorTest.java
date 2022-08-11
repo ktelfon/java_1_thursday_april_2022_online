@@ -1,5 +1,10 @@
 package student_igor_peresunko.homework.lesson_7.PowerCalculator;
 
+import teacher.codereview.CodeReview;
+import teacher.codereview.CodeReviewComment;
+
+@CodeReview(approved = true)
+@CodeReviewComment(teacher = "Empty main")
 public class PowerCalculatorTest {
     public static void main(String[] args) {
 

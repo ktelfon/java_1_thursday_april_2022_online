@@ -1,7 +1,10 @@
 package student_igor_peresunko.homework.lesson13.level5;
 
+import teacher.codereview.CodeReview;
+
 import java.util.Objects;
 
+@CodeReview(approved = true)
 public class Product {
 
     private String name;

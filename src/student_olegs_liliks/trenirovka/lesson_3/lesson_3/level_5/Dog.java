@@ -1,5 +1,8 @@
 package student_olegs_liliks.trenirovka.lesson_3.lesson_3.level_5;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class Dog {
     private String name;
     private int age;

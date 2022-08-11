@@ -1,8 +1,11 @@
 package student_olegs_liliks.homework.lessona_12.level1;
 
+import teacher.codereview.CodeReview;
+
 import java.util.ArrayList;
 import java.util.List;
 
+@CodeReview(approved = true)
 public class IntegerListDemo {
     public static void main(String[] args) {
 

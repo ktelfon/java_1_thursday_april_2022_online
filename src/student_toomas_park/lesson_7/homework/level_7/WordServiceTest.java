@@ -2,8 +2,11 @@ package student_toomas_park.lesson_7.homework.level_7;
 
 
 
+import teacher.codereview.CodeReview;
+
 import java.util.Arrays;
 
+@CodeReview(approved = true)
 class WordServiceTest {
 
     public static void main(String[] args) {

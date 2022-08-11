@@ -1,5 +1,8 @@
 package student_toomas_park.lesson_5.homework.level_5;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class ArrayUtilTest {
 
         public static void main(String[] args) {

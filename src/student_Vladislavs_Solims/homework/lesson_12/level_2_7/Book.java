@@ -1,7 +1,10 @@
 package student_Vladislavs_Solims.homework.lesson_12.level_2_7;
 
+import teacher.codereview.CodeReview;
+
 import java.util.Objects;
 
+@CodeReview(approved = true)
 public class Book {
 
     private Long id;

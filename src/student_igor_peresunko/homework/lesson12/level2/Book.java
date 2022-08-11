@@ -1,7 +1,10 @@
 package student_igor_peresunko.homework.lesson12.level2;
 
+import teacher.codereview.CodeReview;
+
 import java.util.Objects;
 
+@CodeReview(approved = true)
 public class Book {
 
 

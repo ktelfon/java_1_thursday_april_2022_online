@@ -1,6 +1,9 @@
 package student_toomas_park.lesson_7.homework.level_6;
 
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class Palindrome {
     public static boolean isPalindrome(String word){
         char[] text = word.toLowerCase().toCharArray();

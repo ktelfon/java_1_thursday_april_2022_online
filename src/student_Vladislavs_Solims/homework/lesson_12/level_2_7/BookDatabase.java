@@ -1,12 +1,14 @@
 package student_Vladislavs_Solims.homework.lesson_12.level_2_7;
 
 import student_Vladislavs_Solims.homework.lesson_12.level_2_7.criteria.SearchCriteria;
+import teacher.codereview.CodeReview;
 
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
 
+@CodeReview(approved = true)
 public interface BookDatabase {
 
     Long save(Book book);

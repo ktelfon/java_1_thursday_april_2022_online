@@ -1,9 +1,11 @@
 package student_Vladislavs_Solims.homework.lesson_12.level_2_7.UIAction;
 
 import student_Vladislavs_Solims.homework.lesson_12.level_2_7.BookDatabase;
+import teacher.codereview.CodeReview;
 
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 public class FindByTitleUIAction implements UIAction{
 
     private BookDatabase bookDatabase;

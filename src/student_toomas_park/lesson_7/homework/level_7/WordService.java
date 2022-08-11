@@ -1,5 +1,8 @@
 package student_toomas_park.lesson_7.homework.level_7;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class WordService {
     public String findMostFrequentWord(String text) {
         String[] words = makeStringArray(text);

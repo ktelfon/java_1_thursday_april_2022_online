@@ -1,7 +1,10 @@
 package student_toomas_park.lesson_7.homework.level_6;
 
+import teacher.codereview.CodeReview;
+
 import java.util.Arrays;
 
+@CodeReview(approved = true)
 public class ArrayCopyTest {
     public static void main(String[] args) {
         ArrayCopyTest test = new ArrayCopyTest();

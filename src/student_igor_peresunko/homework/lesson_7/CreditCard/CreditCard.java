@@ -1,5 +1,8 @@
 package student_igor_peresunko.homework.lesson_7.CreditCard;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class CreditCard {
 
     private String number;

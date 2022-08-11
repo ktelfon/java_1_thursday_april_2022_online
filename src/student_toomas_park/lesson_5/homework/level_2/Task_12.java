@@ -1,5 +1,8 @@
 package student_toomas_park.lesson_5.homework.level_2;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class Task_12 {
     public static void main(String[] args) {
         double[] numbers = {3.1,-2,-3.147356884};

@@ -1,8 +1,11 @@
 package student_toomas_park.lesson_7.homework.level_6;
 
 
+import teacher.codereview.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 class CreditCard {
 
     private final String cardNumber;

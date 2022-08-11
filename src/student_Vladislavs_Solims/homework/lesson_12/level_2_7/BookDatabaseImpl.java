@@ -1,10 +1,12 @@
 package student_Vladislavs_Solims.homework.lesson_12.level_2_7;
 
 import student_Vladislavs_Solims.homework.lesson_12.level_2_7.criteria.SearchCriteria;
+import teacher.codereview.CodeReview;
 
 import java.util.*;
 import java.util.stream.Collectors;
 
+@CodeReview(approved = true)
 public class BookDatabaseImpl implements BookDatabase {
 
     private static Long bookId = 0l;

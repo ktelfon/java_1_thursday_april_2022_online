@@ -1,5 +1,8 @@
 package student_toomas_park.lesson_6.homework.level_4;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class TwoDimensionalArray {
     public static void main(String[] args){
         int[][] numbers = new int[2][10];

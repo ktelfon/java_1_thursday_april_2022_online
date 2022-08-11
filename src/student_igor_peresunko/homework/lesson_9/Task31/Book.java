@@ -1,7 +1,10 @@
 package student_igor_peresunko.homework.lesson_9.Task31;
 
+import teacher.codereview.CodeReview;
+
 import java.time.LocalDateTime;
 
+@CodeReview(approved = true)
 public class Book {
 
     private String author;

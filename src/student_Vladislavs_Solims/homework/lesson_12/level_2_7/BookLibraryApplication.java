@@ -1,5 +1,8 @@
 package student_Vladislavs_Solims.homework.lesson_12.level_2_7;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class BookLibraryApplication {
     final static String MENU = " Enter : (save new book(1)) \n" +
             " (Find book by id(2)) \n" +

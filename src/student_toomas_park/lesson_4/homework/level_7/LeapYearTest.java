@@ -1,5 +1,8 @@
 package student_toomas_park.lesson_4.homework.level_7;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class LeapYearTest {
     public static void main(String[] args) {
         LeapYearTest test = new LeapYearTest();

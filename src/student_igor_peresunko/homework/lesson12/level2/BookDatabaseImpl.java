@@ -1,11 +1,13 @@
 package student_igor_peresunko.homework.lesson12.level2;
 
 import student_igor_peresunko.homework.lesson12.level2.criteria.SearchCriteria;
+import teacher.codereview.CodeReview;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+@CodeReview(approved = true)
 public class BookDatabaseImpl implements BookDatabase{
 
     private static Long bookId = 0l;

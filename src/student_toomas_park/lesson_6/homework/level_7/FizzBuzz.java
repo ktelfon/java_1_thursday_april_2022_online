@@ -1,5 +1,8 @@
 package student_toomas_park.lesson_6.homework.level_7;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 class FizzBuzz {
     public String detect(int number) {
         if ((number % 3 == 0) && (number % 5 == 0)) {return "FizzBuzz";}

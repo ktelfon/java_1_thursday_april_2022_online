@@ -1,9 +1,11 @@
 package student_igor_peresunko.homework.lesson12.level2;
 
 import student_igor_peresunko.homework.lesson12.level2.criteria.*;
+import teacher.codereview.CodeReview;
 
 import java.util.Optional;
 
+@CodeReview(approved = true)
 public class BookDBDemo {
     public static void main(String[] args) {
         BookDatabase bookDatabase = new BookDatabaseImpl();

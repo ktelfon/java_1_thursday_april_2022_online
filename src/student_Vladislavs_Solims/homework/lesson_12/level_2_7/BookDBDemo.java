@@ -1,9 +1,11 @@
 package student_Vladislavs_Solims.homework.lesson_12.level_2_7;
 
 import student_Vladislavs_Solims.homework.lesson_12.level_2_7.criteria.*;
+import teacher.codereview.CodeReview;
 
 import java.util.Optional;
 
+@CodeReview(approved = true)
 public class BookDBDemo {
     public static void main(String[] args) {
         String authorToSearch = "Kuper";

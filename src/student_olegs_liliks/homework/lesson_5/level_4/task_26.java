@@ -1,9 +1,12 @@
 package student_olegs_liliks.homework.lesson_5.level_4;
 
+import teacher.codereview.CodeReview;
+
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 public class task_26 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

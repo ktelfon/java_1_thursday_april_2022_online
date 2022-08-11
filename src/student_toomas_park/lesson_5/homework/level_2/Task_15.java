@@ -1,5 +1,8 @@
 package student_toomas_park.lesson_5.homework.level_2;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
     public class Task_15 {public static void main(String[] args) {
         double[] numbers = {-3,2.6,550};
         System.out.println("Число 1 " + numbers[0]);

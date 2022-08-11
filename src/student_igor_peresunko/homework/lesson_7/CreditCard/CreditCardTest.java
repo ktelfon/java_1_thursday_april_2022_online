@@ -1,7 +1,9 @@
 package student_igor_peresunko.homework.lesson_7.CreditCard;
 
+import teacher.codereview.CodeReview;
 import teacher.lesson_7_encapsulation.lessoncode.homework.CreditCard;
 
+@CodeReview(approved = true)
 public class CreditCardTest {
 
     public static void main(String[] args) {

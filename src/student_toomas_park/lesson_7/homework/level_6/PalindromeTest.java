@@ -1,7 +1,10 @@
 package student_toomas_park.lesson_7.homework.level_6;
 
+import teacher.codereview.CodeReview;
+
 import static java.util.function.Predicate.isEqual;
 
+@CodeReview(approved = true)
 public class PalindromeTest {
     public static void main(String[] args) {
         PalindromeTest test = new PalindromeTest();

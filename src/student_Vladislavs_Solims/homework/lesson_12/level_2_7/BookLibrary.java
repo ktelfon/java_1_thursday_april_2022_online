@@ -3,6 +3,7 @@ package student_Vladislavs_Solims.homework.lesson_12.level_2_7;
 import student_Vladislavs_Solims.homework.lesson_12.level_2_7.BookDatabase;
 import student_Vladislavs_Solims.homework.lesson_12.level_2_7.BookDatabaseImpl;
 import student_Vladislavs_Solims.homework.lesson_12.level_2_7.UIAction.*;
+import teacher.codereview.CodeReview;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -10,6 +11,7 @@ import java.util.Scanner;
 
 import static student_Vladislavs_Solims.homework.lesson_12.level_2_7.BookLibraryApplication.MENU;
 
+@CodeReview(approved = true)
 public class BookLibrary {
 
 

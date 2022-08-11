@@ -1,9 +1,12 @@
 package student_Vladislavs_Solims.homework.lesson_13;
 
+import teacher.codereview.CodeReview;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+@CodeReview(approved = true)
 public class BankApiTest {
     public static void main(String[] args) {
         List<BankClient> clients = new ArrayList<>();

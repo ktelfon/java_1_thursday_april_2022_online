@@ -1,5 +1,8 @@
 package student_toomas_park.lesson_6.homework.level_6;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class Move {
 
     private int x;

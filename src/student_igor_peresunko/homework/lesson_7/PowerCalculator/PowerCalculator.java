@@ -1,5 +1,8 @@
 package student_igor_peresunko.homework.lesson_7.PowerCalculator;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class PowerCalculator {
     public double power(double number , double power){
         double result = 0;

@@ -1,5 +1,8 @@
 package student_toomas_park.lesson_7.homework.level_5;
 
+import teacher.codereview.CodeReview;
+
+@CodeReview(approved = true)
 public class PowerCalculatorTest {
     public static void main(String[] args){
         PowerCalculatorTest test = new PowerCalculatorTest();

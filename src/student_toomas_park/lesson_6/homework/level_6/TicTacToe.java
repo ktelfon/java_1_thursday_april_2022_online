@@ -1,8 +1,11 @@
 package student_toomas_park.lesson_6.homework.level_6;
 
+import teacher.codereview.CodeReview;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 public class TicTacToe {
 
 
