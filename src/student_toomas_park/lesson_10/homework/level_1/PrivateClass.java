@@ -5,5 +5,4 @@ class PrivateClass {
     private String title;
     private String author;
 
-
 }
