@@ -1,7 +1,6 @@
-package student_toomas_park.level_7.task_31;
+package student_toomas_park.lesson_9.homework.level_7.task_31;
 
 import java.sql.Date;
-import java.sql.Time;
 
 public class Book {
     private String title;
@@ -10,15 +9,15 @@ public class Book {
     private boolean reserved;
     private User user;
 
+    public Book() {
+    }
+
     public Book(String title, String ticket, Date returnDate, boolean reserved, User user) {
         this.title = title;
         this.ticket = ticket;
         this.returnDate = returnDate;
         this.reserved = reserved;
         this.user = user;
-    }
-
-    public Book() {
     }
 
     public String getTitle() {

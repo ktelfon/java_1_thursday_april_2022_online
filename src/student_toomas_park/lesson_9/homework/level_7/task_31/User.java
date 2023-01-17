@@ -1,15 +1,15 @@
-package student_toomas_park.level_7.task_31;
+package student_toomas_park.lesson_9.homework.level_7.task_31;
 
 public class User {
     private String name;
     private String email;
 
+    public User() {
+    }
+
     public User(String name, String email) {
         this.name = name;
         this.email = email;
-    }
-
-    public User() {
     }
 
     public String getName() {
